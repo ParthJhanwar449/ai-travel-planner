@@ -199,7 +199,6 @@ async def bulk_upload_hotels(
                     existing.total_rooms = row.get("total_rooms")
                     existing.image_url = row.get("image_url")
 
-                    db.commit()
                     updated += 1
 
                 # --------------------------------
@@ -228,7 +227,6 @@ async def bulk_upload_hotels(
                     )
 
                     db.add(new_hotel)
-                    db.commit()
 
                     inserted += 1
 
@@ -241,6 +239,8 @@ async def bulk_upload_hotels(
                     "row": index,
                     "error": str(e)
                 })
+
+        db.commit()
 
         return {
             "inserted": inserted,

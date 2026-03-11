@@ -154,7 +154,9 @@ def update_preferences(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
-    user = current_user
+    user = db.query(User).filter(User.id == current_user.id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
 
     user.interest_culture = request.interest_culture
     user.interest_nature = request.interest_nature
@@ -185,7 +187,9 @@ def change_password(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
-    user = current_user
+    user = db.query(User).filter(User.id == current_user.id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
 
     if not verify_password(request.old_password, user.hashed_password):
         raise HTTPException(status_code=400, detail="Incorrect old password")
