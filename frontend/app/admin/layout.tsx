@@ -11,8 +11,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
     useEffect(() => {
 
-        if (pathname === "/admin") return;
-
         const token = localStorage.getItem("access_token");
         const storedUser = localStorage.getItem("user");
 

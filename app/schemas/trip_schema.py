@@ -38,7 +38,7 @@ class TripResponse(BaseModel):
     hotel_price_per_night: float = 0.0
     hotel_total_cost: float = 0.0
     attractions_cost: float = 0.0
-    remaining_budget: float = Field(..., ge=0.0)
+    remaining_budget: float = Field(default=0.0, ge=0.0)
     itinerary: list[Activity]
     hotel: HotelResponse | None = None
 

@@ -232,7 +232,6 @@ async def bulk_upload_hotels(
 
             except Exception as e:
 
-                db.rollback()
 
                 failed += 1
                 errors.append({
