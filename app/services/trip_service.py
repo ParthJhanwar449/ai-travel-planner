@@ -393,8 +393,8 @@ def generate_trip(
     # --------------------------
 
     # Use hotel as starting point if available, otherwise use center
-    start_lat = hotel_data["latitude"] if hotel_data else center_lat
-    start_lon = hotel_data["longitude"] if hotel_data else center_lon
+    start_lat = hotel_data["latitude"] if hotel_data is not None else center_lat
+    start_lon = hotel_data["longitude"] if hotel_data is not None else center_lon
 
     optimized_days = []
 

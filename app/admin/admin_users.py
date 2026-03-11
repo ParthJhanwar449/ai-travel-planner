@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session, joinedload
+from sqlalchemy import text
 
 from app.utils.database import get_db
 from app.models import User, Trip
@@ -17,7 +18,7 @@ def get_all_users(search: str | None = None, db: Session = Depends(get_db)):
 
     # Search by email
     if search:
-        query = query.filter(User.email.ilike(f"%{search}%"))
+        query = query.filter(User.email.ilike(text(":search_pattern"))).params(search_pattern=f"%{search}%")
 
     users = query.order_by(User.created_at.desc()).all()
 

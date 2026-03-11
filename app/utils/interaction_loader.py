@@ -31,7 +31,7 @@ def build_interaction_matrix():
     df = load_interactions()
 
     if df.empty:
-        return None
+        return pd.DataFrame()
 
     # Assign weight (all events = 1 for now)
     df["interaction"] = 1

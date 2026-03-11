@@ -94,9 +94,9 @@ export default function TripDetailPage() {
     const hotelCost = trip.hotel_total_cost || 0;
     const attractionsCost = trip.attractions_cost || 0;
 
-    const dailyBudget = totalCost / tripDays;
-    const dailyHotelCost = hotelCost / tripDays;
-    const dailyAttractionCost = attractionsCost / tripDays;
+    const dailyBudget = tripDays > 0 ? totalCost / tripDays : 0;
+    const dailyHotelCost = tripDays > 0 ? hotelCost / tripDays : 0;
+    const dailyAttractionCost = tripDays > 0 ? attractionsCost / tripDays : 0;
 
     const hotelPercent = (hotelCost / totalCost) * 100;
     const attractionPercent = (attractionsCost / totalCost) * 100;

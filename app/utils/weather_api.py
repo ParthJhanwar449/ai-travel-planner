@@ -26,6 +26,9 @@ def fetch_monthly_climate(latitude: float, longitude: float):
 
     data = response.json()
 
+    if "daily" not in data or "time" not in data["daily"] or "temperature_2m_mean" not in data["daily"]:
+        raise ValueError("Invalid API response structure")
+
     daily_dates = data["daily"]["time"]
     daily_temps = data["daily"]["temperature_2m_mean"]
 

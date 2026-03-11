@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from datetime import datetime
 
 
@@ -8,8 +8,8 @@ from datetime import datetime
 
 class TripRequest(BaseModel):
     city: str
-    trip_days: int
-    activities_per_day: int
+    trip_days: int = Field(..., gt=0)
+    activities_per_day: int = Field(..., gt=0)
     trip_month: int
 
 
@@ -38,7 +38,7 @@ class TripResponse(BaseModel):
     hotel_price_per_night: float = 0.0
     hotel_total_cost: float = 0.0
     attractions_cost: float = 0.0
-    remaining_budget: float
+    remaining_budget: float = Field(..., ge=0.0)
     itinerary: list[Activity]
     hotel: HotelResponse | None = None
 

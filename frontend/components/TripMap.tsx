@@ -66,7 +66,7 @@ export default function TripMap({ itinerary, hotel }: TripMapProps) {
 
     const centerPos: [number, number] = hotel
         ? [hotel.latitude, hotel.longitude]
-        : [activities[0].latitude, activities[0].longitude];
+        : activities.length > 0 ? [activities[0].latitude, activities[0].longitude] : [0, 0];
 
     return (
         <div className="h-96 w-full rounded-xl overflow-hidden mb-8 border border-white/10 shadow-inner">

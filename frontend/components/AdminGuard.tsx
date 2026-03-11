@@ -10,8 +10,10 @@ export default function AdminGuard({ children }: any) {
     useEffect(() => {
 
         const token = localStorage.getItem("admin_token");
+        
+        const isValidToken = (t: string) => t.split('.').length === 3;
 
-        if (!token) {
+        if (!token || !isValidToken(token)) {
             router.replace("/admin");
         }
 

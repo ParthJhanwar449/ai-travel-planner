@@ -163,12 +163,20 @@ def google_login(request: GoogleLoginRequest):
                     INSERT INTO users (
                         email,
                         hashed_password,
+                        interest_culture,
+                        interest_nature,
+                        interest_food,
+                        interest_entertainment,
                         budget_level,
                         is_admin
                     )
                     VALUES (
                         :email,
                         :hashed_password,
+                        :interest_culture,
+                        :interest_nature,
+                        :interest_food,
+                        :interest_entertainment,
                         'Medium',
                         :is_admin
                     )
@@ -177,6 +185,10 @@ def google_login(request: GoogleLoginRequest):
                 {
                     "email": email,
                     "hashed_password": hash_password(secrets.token_urlsafe(32)),
+                    "interest_culture": False,
+                    "interest_nature": False,
+                    "interest_food": False,
+                    "interest_entertainment": False,
                     "is_admin": False
                 }
             )

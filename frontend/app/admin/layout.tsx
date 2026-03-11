@@ -22,8 +22,13 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         }
 
         if (storedUser) {
-            const user = JSON.parse(storedUser);
-            if (!user.is_admin) {
+            try {
+                const user = JSON.parse(storedUser);
+                if (!user.is_admin) {
+                    router.replace("/admin");
+                    return;
+                }
+            } catch (e) {
                 router.replace("/admin");
                 return;
             }
