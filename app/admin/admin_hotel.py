@@ -33,7 +33,7 @@ class BulkDeleteRequest(BaseModel):
 def list_hotels(
     search: str | None = Query(None),
     page: int = Query(1, ge=1),
-    limit: int = Query(10, le=100),
+    limit: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db),
     admin=Depends(admin_required)
 ):
@@ -90,10 +90,13 @@ def bulk_delete_hotels(
 
     deleted_count = len(hotels)
 
-    for hotel in hotels:
-        db.delete(hotel)
-
-    db.commit()
+    try:
+        for hotel in hotels:
+            db.delete(hotel)
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Failed to delete hotels")
 
     return {
         "deleted": deleted_count
@@ -184,9 +187,13 @@ async def bulk_upload_hotels(
 
                 if existing:
 
-                    existing.latitude = float(row.get("latitude"))
-                    existing.longitude = float(row.get("longitude"))
-                    existing.price_per_night = float(row.get("price_per_night"))
+                    try:
+                        existing.latitude = float(row.get("latitude"))
+                        existing.longitude = float(row.get("longitude"))
+                        existing.price_per_night = float(row.get("price_per_night"))
+                    except (ValueError, TypeError) as fe:
+                        raise Exception(f"Invalid numeric value: {fe}")
+
                     existing.rating = row.get("rating")
                     existing.amenities = row.get("amenities")
                     existing.total_rooms = row.get("total_rooms")
@@ -201,12 +208,19 @@ async def bulk_upload_hotels(
 
                 else:
 
+                    try:
+                        lat = float(row.get("latitude"))
+                        lng = float(row.get("longitude"))
+                        price = float(row.get("price_per_night"))
+                    except (ValueError, TypeError) as fe:
+                        raise Exception(f"Invalid numeric value: {fe}")
+
                     new_hotel = Hotel(
                         name=hotel_name,
                         city_id=city.id,
-                        latitude=float(row.get("latitude")),
-                        longitude=float(row.get("longitude")),
-                        price_per_night=float(row.get("price_per_night")),
+                        latitude=lat,
+                        longitude=lng,
+                        price_per_night=price,
                         rating=row.get("rating"),
                         amenities=row.get("amenities"),
                         total_rooms=row.get("total_rooms"),

@@ -163,6 +163,7 @@ def update_preferences(
     user.budget_level = request.budget_level
 
     db.commit()
+    db.refresh(user)
 
     return {"message": "Preferences updated successfully"}
 
@@ -191,5 +192,6 @@ def change_password(
 
     user.hashed_password = hash_password(request.new_password)
     db.commit()
+    db.refresh(user)
 
     return {"message": "Password updated successfully"}

@@ -140,11 +140,10 @@ def google_login(request: GoogleLoginRequest):
 
     idinfo = verify_google_token(request.access_token)
 
-    if not idinfo or isinstance(idinfo, str):
-        error_detail = idinfo if isinstance(idinfo, str) else "Invalid Google token"
+    if not idinfo:
         raise HTTPException(
-            status_code=400, 
-            detail=f"Google Auth Check failed: {error_detail}"
+            status_code=400,
+            detail="Google authentication failed: invalid or expired token"
         )
 
     email = idinfo["email"]
@@ -177,11 +176,13 @@ def google_login(request: GoogleLoginRequest):
                 """),
                 {
                     "email": email,
-                    "hashed_password": hash_password("google_oauth_user"),
+                    "hashed_password": hash_password(secrets.token_urlsafe(32)),
                     "is_admin": False
                 }
             )
             user_data = insert_result.fetchone()
+            if not user_data:
+                raise HTTPException(status_code=500, detail="Failed to create user account")
             user_id, email, is_admin = user_data
         else:
             user_id, email, is_admin = user

@@ -35,7 +35,7 @@ class BulkDeleteRequest(BaseModel):
 def list_cities(
     search: str | None = Query(None),
     page: int = Query(1, ge=1),
-    limit: int = Query(10, le=100),
+    limit: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db),
     admin=Depends(admin_required)
 ):
@@ -77,10 +77,13 @@ def bulk_delete_cities(
 
     deleted_count = len(cities)
 
-    for city in cities:
-        db.delete(city)
-
-    db.commit()
+    try:
+        for city in cities:
+            db.delete(city)
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Failed to delete cities")
 
     return {
         "deleted": deleted_count
@@ -147,8 +150,11 @@ async def bulk_upload_cities(
                     existing.description = row.get("description")
                     existing.hero_image_url = row.get("hero_image_url")
                     existing.avg_daily_budget = row.get("avg_daily_budget")
-                    existing.latitude = float(row.get("latitude"))
-                    existing.longitude = float(row.get("longitude"))
+                    try:
+                        existing.latitude = float(row.get("latitude"))
+                        existing.longitude = float(row.get("longitude"))
+                    except (ValueError, TypeError):
+                        raise Exception("Invalid latitude/longitude format, must be numeric")
 
                     db.commit()
                     updated += 1
@@ -158,14 +164,20 @@ async def bulk_upload_cities(
                 # --------------------------------
                 else:
 
+                    try:
+                        lat = float(row.get("latitude"))
+                        lng = float(row.get("longitude"))
+                    except (ValueError, TypeError):
+                        raise Exception("Invalid latitude/longitude format, must be numeric")
+
                     new_city = City(
                         name=city_name,
                         country=row.get("country"),
                         description=row.get("description"),
                         hero_image_url=row.get("hero_image_url"),
                         avg_daily_budget=row.get("avg_daily_budget"),
-                        latitude=float(row.get("latitude")),
-                        longitude=float(row.get("longitude"))
+                        latitude=lat,
+                        longitude=lng
                     )
 
                     db.add(new_city)

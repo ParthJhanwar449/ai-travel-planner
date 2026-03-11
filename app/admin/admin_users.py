@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 
 from app.utils.database import get_db
 from app.models import User, Trip
@@ -37,12 +37,15 @@ def get_all_users(search: str | None = None, db: Session = Depends(get_db)):
 @router.get("/users/{user_id}")
 def get_user_profile(user_id: int, db: Session = Depends(get_db)):
 
-    user = db.query(User).filter(User.id == user_id).first()
+    user = (
+        db.query(User)
+        .options(joinedload(User.trips))
+        .filter(User.id == user_id)
+        .first()
+    )
 
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
-
-    trips = db.query(Trip).filter(Trip.user_id == user_id).all()
 
     return {
         "id": user.id,
@@ -63,6 +66,6 @@ def get_user_profile(user_id: int, db: Session = Depends(get_db)):
                 "total_cost": trip.total_cost,
                 "created_at": trip.created_at
             }
-            for trip in trips
+            for trip in user.trips
         ]
     }

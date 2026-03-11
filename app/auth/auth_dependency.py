@@ -15,6 +15,10 @@ def get_current_user(
 ) -> User:
     token = credentials.credentials
 
+    # Basic JWT format sanity check (header.payload.signature)
+    if not token or len(token.split(".")) != 3:
+        raise HTTPException(status_code=401, detail="Invalid token format")
+
     payload = verify_token(token)
 
     if payload is None:

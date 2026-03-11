@@ -1,7 +1,8 @@
+import os
 from google.oauth2 import id_token
 from google.auth.transport import requests
 
-GOOGLE_CLIENT_ID = "335608642228-asorcgqngtvo8tvn7oma4m15cckh4ov3.apps.googleusercontent.com"
+GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "335608642228-asorcgqngtvo8tvn7oma4m15cckh4ov3.apps.googleusercontent.com")
 
 
 def verify_google_token(token: str):
@@ -15,4 +16,4 @@ def verify_google_token(token: str):
         return idinfo
     except Exception as e:
         print(f"--- GOOGLE VERIFY ERROR: {str(e)}")
-        return str(e)
+        return None

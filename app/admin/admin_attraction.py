@@ -35,7 +35,7 @@ class BulkDeleteRequest(BaseModel):
 def list_attractions(
     search: str | None = Query(None),
     page: int = Query(1, ge=1),
-    limit: int = Query(10, le=100),
+    limit: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db),
     admin=Depends(admin_required)
 ):
@@ -93,10 +93,13 @@ def bulk_delete_attractions(
 
     deleted_count = len(attractions)
 
-    for attraction in attractions:
-        db.delete(attraction)
-
-    db.commit()
+    try:
+        for attraction in attractions:
+            db.delete(attraction)
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Failed to delete attractions")
 
     return {
         "deleted": deleted_count
@@ -173,10 +176,16 @@ async def bulk_upload_attractions(
                 closing_time = row.get("closing_time")
 
                 if opening_time:
-                    opening_time = time.fromisoformat(str(opening_time))
+                    try:
+                        opening_time = time.fromisoformat(str(opening_time))
+                    except ValueError:
+                        raise Exception("Invalid opening_time format, expected HH:MM:SS or HH:MM")
 
                 if closing_time:
-                    closing_time = time.fromisoformat(str(closing_time))
+                    try:
+                        closing_time = time.fromisoformat(str(closing_time))
+                    except ValueError:
+                        raise Exception("Invalid closing_time format, expected HH:MM:SS or HH:MM")
 
                 existing = db.query(Attraction).filter(
                     Attraction.name.ilike(attraction_name),
@@ -188,9 +197,13 @@ async def bulk_upload_attractions(
                 # --------------------------------
                 if existing:
 
-                    existing.latitude = float(row.get("latitude"))
-                    existing.longitude = float(row.get("longitude"))
-                    existing.estimated_cost = float(row.get("estimated_cost", 0))
+                    try:
+                        existing.latitude = float(row.get("latitude"))
+                        existing.longitude = float(row.get("longitude"))
+                        existing.estimated_cost = float(row.get("estimated_cost", 0))
+                    except (ValueError, TypeError) as fe:
+                        raise Exception(f"Invalid numeric value: {fe}")
+
                     existing.opening_time = opening_time
                     existing.closing_time = closing_time
                     existing.closed_days = row.get("closed_days")
@@ -203,12 +216,19 @@ async def bulk_upload_attractions(
                 # --------------------------------
                 else:
 
+                    try:
+                        lat = float(row.get("latitude"))
+                        lng = float(row.get("longitude"))
+                        cost = float(row.get("estimated_cost", 0))
+                    except (ValueError, TypeError) as fe:
+                        raise Exception(f"Invalid numeric value: {fe}")
+
                     new_attraction = Attraction(
                         name=attraction_name,
                         city_id=city.id,
-                        latitude=float(row.get("latitude")),
-                        longitude=float(row.get("longitude")),
-                        estimated_cost=float(row.get("estimated_cost", 0)),
+                        latitude=lat,
+                        longitude=lng,
+                        estimated_cost=cost,
                         opening_time=opening_time,
                         closing_time=closing_time,
                         closed_days=row.get("closed_days")
