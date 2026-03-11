@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #040905;
+  --color-foreground: #ffffff;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent blinking cursor (caret) on static text */
+  caret-color: transparent;
+}
+
+/* Ensure cursor still shows in normal text entry fields */
+input,
+textarea {
+  caret-color: auto;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.3);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040905;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111812;
+  border: 4px solid #040905;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}

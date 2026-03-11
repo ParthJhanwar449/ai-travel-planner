@@ -1,0 +1,407 @@
+name,city_name,latitude,longitude,estimated_cost,opening_time,closing_time,closed_days
+Centre d'Histoire de la Résistance et de la Déportation,Lyon,45.7464306,4.8359519,15,09:30,18:30,Monday
+Musée urbain Tony Garnier,Lyon,45.7335086,4.8629827,15,09:30,18:30,Monday
+Musée de l'Armée,Paris,48.8570374,2.3118779,15,09:30,18:30,Monday
+Point zéro des Routes de France,Paris,48.8534015,2.3487885,5,09:30,18:30,Monday
+Musée des Arts Décoratifs,Paris,48.8631692,2.3329513,15,09:30,18:30,Monday
+Musée des Arts et Métiers,Paris,48.8660977,2.3554138,15,09:30,18:30,Monday
+Centre d'art contemporain du Fort du Bruissin,Lyon,45.7305319,4.7385345,15,09:30,18:30,Monday
+Musée national Gustave Moreau,Paris,48.8778955,2.3345468,15,09:30,18:30,Monday
+Musée Grévin,Paris,48.8718365,2.3420974,15,09:30,18:30,Monday
+Musée Edith Piaf,Paris,48.8662368,2.3817367,15,09:30,18:30,Monday
+Espace Dali,Paris,48.88648,2.3399022,15,09:30,18:30,Monday
+Cité des Sciences et de l'Industrie,Paris,48.8957518,2.3879761,15,09:30,18:30,Monday
+Maison de Victor Hugo,Paris,48.854799,2.3661358,15,09:30,18:30,Monday
+Vedettes de Paris,Paris,48.8588633,2.2918544,5,09:30,18:30,Monday
+Maison européenne de la Photographie,Paris,48.8551205,2.3589562,15,09:30,18:30,Monday
+Robinier du square René Viviani,Paris,48.8521855,2.3472903,5,09:30,18:30,Monday
+Cité des Enfants (5-12 ans),Paris,48.8957352,2.3886935,15,09:30,18:30,Monday
+Place du Carrousel,Paris,48.861633,2.3340447,5,09:30,18:30,Monday
+Catacombes de Paris,Paris,48.8337439,2.3322925,15,09:30,18:30,Monday
+Fontaine Cuvier,Paris,48.8439963,2.3550311,5,09:30,18:30,Monday
+Ferme caprine de l'Hermitage,Lyon,45.8282326,4.7784778,5,09:30,18:30,Monday
+Lavoir,Lyon,45.8374134,4.8053212,5,09:30,18:30,Monday
+Le Petit Bouillon Pharamond,Paris,48.8630052,2.3485011,5,09:30,18:30,Monday
+Fontaine Médicis,Paris,48.8480587,2.3392944,5,09:30,18:30,Monday
+Conciergerie,Paris,48.8559492,2.3460263,15,09:30,18:30,Monday
+Brasserie Bofinger,Paris,48.8539095,2.3680433,5,09:30,18:30,Monday
+Musée du Vin,Paris,48.8575222,2.284569,15,09:30,18:30,Monday
+Renard des Steppes,Paris,48.8453955,2.3614522,5,09:30,18:30,Monday
+Takin,Paris,48.8449433,2.3611035,5,09:30,18:30,Monday
+Markhor,Paris,48.8455992,2.3601919,5,09:30,18:30,Monday
+Cheval de Przewalski,Paris,48.8455987,2.3610025,5,09:30,18:30,Monday
+Tapir malais,Paris,48.8460274,2.36141,5,09:30,18:30,Monday
+Chèvres des montagnes rocheuses,Paris,48.845395,2.3600837,5,09:30,18:30,Monday
+Flamant des Caraïbes,Paris,48.8451325,2.3585787,5,09:30,18:30,Monday
+Vigognes,Paris,48.8448648,2.3615333,5,09:30,18:30,Monday
+Casoars à casque,Paris,48.8461195,2.360275,5,09:30,18:30,Monday
+Oryx d'Arabie,Paris,48.8449788,2.3620536,5,09:30,18:30,Monday
+Gaur,Paris,48.8444306,2.35884,5,09:30,18:30,Monday
+Gaur,Paris,48.8444306,2.35884,5,09:30,18:30,Monday
+Gaur,Paris,48.8444306,2.35884,5,09:30,18:30,Monday
+Pademelons,Paris,48.8450246,2.3589585,5,09:30,18:30,Monday
+Sanglier de Visayas,Paris,48.8448968,2.3592364,5,09:30,18:30,Monday
+Chèvres du Sénégal,Paris,48.8445478,2.3594168,5,09:30,18:30,Monday
+Wallaby de Bennett,Paris,48.844406,2.3578617,5,09:30,18:30,Monday
+Gaur,Paris,48.8446941,2.3581762,5,09:30,18:30,Monday
+Gaur,Paris,48.8446941,2.3581762,5,09:30,18:30,Monday
+Gaur,Paris,48.8446941,2.3581762,5,09:30,18:30,Monday
+Goral,Paris,48.8451002,2.3603422,5,09:30,18:30,Monday
+Gaur,Paris,48.8443675,2.3593861,5,09:30,18:30,Monday
+Gaur,Paris,48.8443675,2.3593861,5,09:30,18:30,Monday
+Gaur,Paris,48.8443675,2.3593861,5,09:30,18:30,Monday
+Potamochère roux,Paris,48.8446411,2.3605583,5,09:30,18:30,Monday
+Ara,Paris,48.8457133,2.3599754,5,09:30,18:30,Monday
+Musée de la Poste,Paris,48.8414555,2.317219,15,09:30,18:30,Monday
+Galerie-musée Baccarat,Paris,48.8677391,2.2936393,15,09:30,18:30,Monday
+Trompe-œil Bach,Paris,48.8307373,2.366252,5,09:30,18:30,Monday
+Himalaya,Paris,48.844063,2.3591577,5,09:30,18:30,Monday
+Serre de Nouvelle-Calédonie,Paris,48.8431338,2.3572563,5,09:30,18:30,Monday
+Cévennes,Paris,48.8439327,2.3586581,5,09:30,18:30,Monday
+Maroc,Paris,48.8441742,2.3588085,5,09:30,18:30,Monday
+Corse,Paris,48.8441587,2.3590142,5,09:30,18:30,Monday
+Forêts tropicales humides,Paris,48.8433054,2.3580196,5,09:30,18:30,Monday
+Rapaces diurnes,Paris,48.8458624,2.3599834,5,09:30,18:30,Monday
+Espagne,Paris,48.8441758,2.3585181,5,09:30,18:30,Monday
+Balkans,Paris,48.8440565,2.3582832,5,09:30,18:30,Monday
+Provence,Paris,48.8441366,2.3586465,5,09:30,18:30,Monday
+Préalpes,Paris,48.8439166,2.3585197,5,09:30,18:30,Monday
+USA,Paris,48.8440008,2.3589658,5,09:30,18:30,Monday
+Zone arides des déserts,Paris,48.8431839,2.3575411,5,09:30,18:30,Monday
+Alpes,Paris,48.8439389,2.358275,5,09:30,18:30,Monday
+Histoire des Plantes,Paris,48.8429803,2.3568019,5,09:30,18:30,Monday
+Caucase,Paris,48.8441665,2.359246,5,09:30,18:30,Monday
+La Galerie des Enfants,Paris,48.8425172,2.3561671,5,09:30,18:30,Monday
+Japon - Chine,Paris,48.8440975,2.3594894,5,09:30,18:30,Monday
+Tourbière,Paris,48.8438012,2.3582264,5,09:30,18:30,Monday
+Rapaces nocturnes,Paris,48.8445919,2.3612089,5,09:30,18:30,Monday
+Panda roux,Paris,48.8441801,2.3598139,5,09:30,18:30,Monday
+Binturong,Paris,48.8442979,2.3601736,5,09:30,18:30,Monday
+Musée du Service de Santé des Armées,Paris,48.8403652,2.3414281,15,09:30,18:30,Monday
+Musée du chocolat,Paris,48.870585,2.3500955,15,09:30,18:30,Monday
+Cabinet de curiosités,Paris,48.8733087,2.3423149,5,09:30,18:30,Monday
+Cité de l'architecture et du patrimoine,Paris,48.8628901,2.288981,15,09:30,18:30,Monday
+Musée de la Marine,Paris,48.8618163,2.2873421,15,09:30,18:30,Monday
+Musée de la Franc-Maçonnerie,Paris,48.8749151,2.3431481,15,09:30,18:30,Monday
+City Aventure Lyon - Ste Foy,Lyon,45.7258436,4.7930643,5,09:30,18:30,Monday
+Espace des Sciences Pierre-Gilles de Gennes,Paris,48.8411575,2.3473052,15,09:30,18:30,Monday
+Fondation Le Corbusier,Paris,48.8519022,2.2652413,15,09:30,18:30,Monday
+Musée de la Contrefaçon,Paris,48.8703234,2.2765175,15,09:30,18:30,Monday
+Pavillons de Bercy,Paris,48.8327663,2.3893382,15,09:30,18:30,Monday
+Musée Cinéma & Miniature,Lyon,45.7618753,4.8272985,15,09:30,18:30,Monday
+Musée Adam Mickiewicz,Paris,48.8513494,2.355588,15,09:30,18:30,Monday
+Musée Clemenceau,Paris,48.8591945,2.285142,15,09:30,18:30,Monday
+Musée-Librairie du Compagnonnage,Paris,48.8522269,2.335005,15,09:30,18:30,Monday
+Musée Valentin Haüy,Paris,48.8476741,2.3140391,15,09:30,18:30,Monday
+Musée d'Histoire de la Médecine,Paris,48.8513247,2.3409022,15,09:30,18:30,Monday
+Musée Maillol,Paris,48.8547723,2.3249025,15,09:30,18:30,Monday
+Musée de Minéralogie,Paris,48.8453935,2.3394599,15,09:30,18:30,Monday
+Musée Moissan,Paris,48.8434624,2.3362665,15,09:30,18:30,Monday
+Bibliothèque-Musée de l'Opéra,Paris,48.871882,2.331212,15,09:30,18:30,Monday
+Musée de la Préfecture de Police,Paris,48.8494311,2.3483534,15,09:30,18:30,Monday
+Square Georges Contenot,Paris,48.8373537,2.3964048,0,09:30,18:30,Monday
+Institut d'art contemporain,Lyon,45.7625393,4.8727591,15,09:30,18:30,Monday
+Musée de l'automobile Henri Malartre,Lyon,45.8449493,4.8371587,15,09:30,18:30,Monday
+Tours de Notre-Dame,Paris,48.8533658,2.3493036,5,09:30,18:30,Monday
+Le Gros Caillou,Lyon,45.7745651,4.8350113,5,09:30,18:30,Monday
+Fontaine à l'eau ferrugineuse,Lyon,45.6630605,4.7115351,5,09:30,18:30,Monday
+Fondation Bullukian,Lyon,45.7566217,4.8311317,15,09:30,18:30,Monday
+Trésor de Notre-Dame,Paris,48.8526313,2.3500601,15,09:30,18:30,Monday
+Le Lido,Paris,48.8724266,2.3008705,5,09:30,18:30,Monday
+Chais et Entrepôts de Bercy,Paris,48.8327851,2.3883176,5,09:30,18:30,Monday
+Musée National d'Art Moderne,Paris,48.860324,2.3522598,15,09:30,18:30,Monday
+Cité Florale,Paris,48.822703,2.3448195,5,09:30,18:30,Monday
+Tour de l'Horloge,Paris,48.856193,2.3462327,5,09:30,18:30,Monday
+Carrières souterraines des Capucins,Paris,48.8371564,2.3395284,5,09:30,18:30,Monday
+Le Petit Train,Paris,48.8222506,2.3378888,5,09:30,18:30,Monday
+Musée Antoine Brun,Lyon,45.7747844,4.690323,15,09:30,18:30,Monday
+Maison de Madame Violet Trefusis,Paris,48.850924,2.328973,5,09:30,18:30,Monday
+Canauxrama,Paris,48.8508544,2.3681264,5,09:30,18:30,Monday
+Art Ludique - Le Musée,Paris,48.8405179,2.3703276,15,09:30,18:30,Monday
+Collection des minéraux,Paris,48.8475408,2.3548406,15,09:30,18:30,Monday
+Musée d'histoire de la médecine et de la pharmacie de Lyon,Lyon,45.7414332,4.8805413,15,09:30,18:30,Monday
+Entrée du musée gallo-romain de Lyon,Lyon,45.759028,4.8211073,15,09:30,18:30,Monday
+Babouin de Guinée,Paris,48.8332416,2.4198595,5,09:30,18:30,Monday
+Capucin,Paris,48.8327665,2.4172099,5,09:30,18:30,Monday
+Capybara,Paris,48.8335185,2.4176311,5,09:30,18:30,Monday
+Chien des buissons,Paris,48.8335694,2.4181101,5,09:30,18:30,Monday
+Girafe,Paris,48.8323403,2.4194524,5,09:30,18:30,Monday
+Glouton,Paris,48.8339227,2.4183487,5,09:30,18:30,Monday
+Grand Koudou,Paris,48.8328776,2.4184285,5,09:30,18:30,Monday
+Guanaco,Paris,48.8317882,2.4168664,5,09:30,18:30,Monday
+Jaguar,Paris,48.8334011,2.4180359,5,09:30,18:30,Monday
+Lion d'Afrique,Paris,48.8310766,2.41959,5,09:30,18:30,Monday
+Loup ibérique,Paris,48.8341311,2.4190277,5,09:30,18:30,Monday
+Lynx d'Europe,Paris,48.8338315,2.4180006,5,09:30,18:30,Monday
+Mara,Paris,48.8322148,2.416247,5,09:30,18:30,Monday
+Marabout d'Afrique,Paris,48.8327121,2.4179368,5,09:30,18:30,Monday
+Propithèque couronné,Paris,48.8328041,2.4159236,5,09:30,18:30,Monday
+Poudou,Paris,48.8310245,2.4177516,5,09:30,18:30,Monday
+Singe laineux,Paris,48.8329881,2.4174663,5,09:30,18:30,Monday
+Tapir terrestre,Paris,48.8333984,2.417529,5,09:30,18:30,Monday
+Vautour fauve,Paris,48.8343102,2.419898,5,09:30,18:30,Monday
+Zèbre de Grévy,Paris,48.8316935,2.4183734,5,09:30,18:30,Monday
+Autruche,Paris,48.8325853,2.4182148,5,09:30,18:30,Monday
+Addax,Paris,48.8321129,2.4185267,5,09:30,18:30,Monday
+Grand Calao terrestre,Paris,48.8313143,2.4186572,5,09:30,18:30,Monday
+Grue couronnée,Paris,48.8326179,2.4184909,5,09:30,18:30,Monday
+Manchot de Humboldt,Paris,48.8317571,2.4175394,5,09:30,18:30,Monday
+Vigogne,Paris,48.8326251,2.415763,5,09:30,18:30,Monday
+Otarie à crinière,Paris,48.8320654,2.4172845,5,09:30,18:30,Monday
+Puma,Paris,48.831296,2.4179519,5,09:30,18:30,Monday
+Rhinocéros blanc,Paris,48.8315124,2.4188586,5,09:30,18:30,Monday
+Aigrette garzette,Paris,48.833723,2.418647,5,09:30,18:30,Monday
+Ara hyacinthe,Paris,48.8333367,2.4172979,5,09:30,18:30,Monday
+Avocette élégante,Paris,48.833656,2.41868,5,09:30,18:30,Monday
+Calao trompette,Paris,48.8336347,2.4185416,5,09:30,18:30,Monday
+Chevalier gambette,Paris,48.8335914,2.4187338,5,09:30,18:30,Monday
+Cigogne d'Abdim,Paris,48.8337427,2.4188073,5,09:30,18:30,Monday
+Dendrocygne fauve,Paris,48.833559,2.4186222,5,09:30,18:30,Monday
+Echasse blanche,Paris,48.8335487,2.4188435,5,09:30,18:30,Monday
+Flamant rose,Paris,48.8335036,2.4187406,5,09:30,18:30,Monday
+Fossa,Paris,48.833464,2.415708,5,09:30,18:30,Monday
+Lémuriens,Paris,48.8331122,2.4160451,5,09:30,18:30,Monday
+Lémuriens,Paris,48.8331122,2.4160451,5,09:30,18:30,Monday
+Héron garde-bœuf,Paris,48.8336902,2.4187471,5,09:30,18:30,Monday
+Ibis chauve,Paris,48.8337317,2.4187481,5,09:30,18:30,Monday
+Ibis falcinelle,Paris,48.8337548,2.4187199,5,09:30,18:30,Monday
+Loutre d'Europe,Paris,48.8338687,2.4201002,5,09:30,18:30,Monday
+Milan royal,Paris,48.8340761,2.4198391,5,09:30,18:30,Monday
+Ombrette,Paris,48.8336728,2.418609,5,09:30,18:30,Monday
+Pigeon de Guinée,Paris,48.833626,2.4188171,5,09:30,18:30,Monday
+Roussette paillée africaine,Paris,48.83363,2.4167909,5,09:30,18:30,Monday
+Sarcelle hottentote,Paris,48.8335077,2.4186125,5,09:30,18:30,Monday
+Souchet d'Europe,Paris,48.8335388,2.4186801,5,09:30,18:30,Monday
+Spatule d'Afrique,Paris,48.833693,2.418539,5,09:30,18:30,Monday
+Tantale ibis,Paris,48.8336694,2.4188689,5,09:30,18:30,Monday
+Tortue rayonnée,Paris,48.8327045,2.4163472,5,09:30,18:30,Monday
+Touraco violet,Paris,48.8335913,2.4185543,5,09:30,18:30,Monday
+Vanneau armé,Paris,48.8336099,2.4188822,5,09:30,18:30,Monday
+Vautour moine,Paris,48.8342155,2.4199097,5,09:30,18:30,Monday
+Vautour percnoptère,Paris,48.8341778,2.4198114,5,09:30,18:30,Monday
+Vivarium européen,Paris,48.8338149,2.4198954,5,09:30,18:30,Monday
+Grille du Coq,Paris,48.8684576,2.3152392,5,09:30,18:30,Monday
+Clos de la Rosette,Lyon,45.8335307,4.8072341,5,09:30,18:30,Monday
+Bureau de Gustave Eiffel,Paris,48.8582685,2.2945812,5,09:30,18:30,Monday
+Musée de l'Ordre de la Libération,Paris,48.8556933,2.311332,15,09:30,18:30,Monday
+Musée des Plans-Reliefs,Paris,48.8564589,2.3132374,15,09:30,18:30,Monday
+Boutique Souvenirs du Petit Musée de Guignol,Lyon,45.7639034,4.8281374,15,09:30,18:30,Monday
+Caborne,Lyon,45.8416918,4.8005465,5,09:30,18:30,Monday
+Caborne,Lyon,45.8416918,4.8005465,5,09:30,18:30,Monday
+Caborne,Lyon,45.8416918,4.8005465,5,09:30,18:30,Monday
+L'Araire,Lyon,45.7088748,4.5916928,15,09:30,18:30,Monday
+Cour de l'Etoile d'Or,Paris,48.8522054,2.3749353,5,09:30,18:30,Monday
+Musée de l'Homme,Paris,48.8620467,2.2876525,15,09:30,18:30,Monday
+Maison des mathématiques et de l'informatique,Lyon,45.7299317,4.8280106,15,09:30,18:30,Monday
+Caborne,Lyon,45.8394678,4.8139127,5,09:30,18:30,Monday
+Caborne,Lyon,45.8394678,4.8139127,5,09:30,18:30,Monday
+Caborne,Lyon,45.8394678,4.8139127,5,09:30,18:30,Monday
+Caborne,Lyon,45.8323485,4.812665,5,09:30,18:30,Monday
+Caborne,Lyon,45.8323485,4.812665,5,09:30,18:30,Monday
+Caborne,Lyon,45.8323485,4.812665,5,09:30,18:30,Monday
+Cité des Enfants (2-7 ans),Paris,48.8961521,2.3880996,15,09:30,18:30,Monday
+Musée de l'Océanie,Lyon,45.6443418,4.4481263,15,09:30,18:30,Monday
+La Tour Rose,Lyon,45.7629626,4.8269316,5,09:30,18:30,Monday
+Porte de Riverie,Lyon,45.6311532,4.4535256,5,09:30,18:30,Monday
+Tour du Rempart,Lyon,45.6319868,4.4528511,5,09:30,18:30,Monday
+Maison des métiers,Lyon,45.6333214,4.4549908,15,09:30,18:30,Monday
+#onlylyon,Lyon,45.7305017,4.8182051,5,09:30,18:30,Monday
+Défis Pirate,Lyon,45.677051,4.9669635,60,09:30,18:30,Monday
+Puits de la Motte,Lyon,45.6781707,4.3845937,5,09:30,18:30,Monday
+Musée en Herbe,Paris,48.8601457,2.3421021,15,09:30,18:30,Monday
+Fontaine du Fellah,Paris,48.84879,2.3210687,5,09:30,18:30,Monday
+Mini World Lyon,Lyon,45.7647877,4.9232356,5,09:30,18:30,Monday
+Rue des Eaux,Paris,48.8575654,2.28408,5,09:30,18:30,Monday
+Institut Lumière,Lyon,45.7450881,4.8706151,15,09:30,18:30,Monday
+Champs Élysées,Paris,48.8707573,2.3053312,5,09:30,18:30,Monday
+La Roche Percée,Lyon,45.8509437,4.800456,5,09:30,18:30,Monday
+Musée des Archives nationales,Paris,48.8604503,2.3578119,15,09:30,18:30,Monday
+Musée Boleslas Biegas,Paris,48.8513131,2.35562,15,09:30,18:30,Monday
+Le Génie de la Liberté,Paris,48.8531664,2.3691393,0,09:30,18:30,Monday
+Anoa,Paris,48.845316,2.3624736,5,09:30,18:30,Monday
+Tortue géante des Seychelles,Paris,48.8445932,2.3596855,5,09:30,18:30,Monday
+Porcs-épics,Paris,48.8454834,2.3595762,5,09:30,18:30,Monday
+Outardes Houbara,Paris,48.8463094,2.3605176,5,09:30,18:30,Monday
+Bharal,Paris,48.8456281,2.3605739,5,09:30,18:30,Monday
+Chat de Pallas,Paris,48.8447297,2.3618426,5,09:30,18:30,Monday
+Martre à gorge jaune,Paris,48.8447668,2.362017,5,09:30,18:30,Monday
+Arkal,Paris,48.8443683,2.3597438,5,09:30,18:30,Monday
+Nilgaut,Paris,48.8449237,2.3606068,5,09:30,18:30,Monday
+Nandou,Paris,48.8447013,2.3610306,5,09:30,18:30,Monday
+Versalles,Paris,48.8324071,2.2880076,5,09:30,18:30,Monday
+Hôtel d'Estaing,Lyon,45.7615067,4.8272594,5,09:30,18:30,Monday
+Sortie des Catacombes,Paris,48.8295257,2.3345327,5,09:30,18:30,Monday
+Montparnasse,Paris,48.8424217,2.3286868,5,09:30,18:30,Monday
+Maison des Canuts,Lyon,45.777106,4.8336847,15,09:30,18:30,Monday
+Musée National de l'Histoire de l'Immigration,Paris,48.8351424,2.4093613,15,09:30,18:30,Monday
+"Plaque commémorant la première frappe du canon allemand « Pariser Kanonen », le 23 mars 1918",Paris,48.8847546,2.3708845,5,09:30,18:30,Monday
+Barthélémy,Paris,48.8544952,2.3255993,5,09:30,18:30,Monday
+King Aventure,Lyon,45.8015106,4.7665084,60,09:30,18:30,Monday
+Musée Jean Couty,Lyon,45.797918,4.8293849,15,09:30,18:30,Monday
+Musée de la Musique,Paris,48.8901928,2.393712,15,09:30,18:30,Monday
+Plan d'eau - Espace vert Pré de la Grand Font,Lyon,45.6802188,4.477162,0,09:30,18:30,Monday
+Gnomon astronomique,Paris,48.8512608,2.3349582,5,09:30,18:30,Monday
+Musée de la psychiatrie et des neurosciences,Paris,48.8297287,2.3400182,15,09:30,18:30,Monday
+Pont du Carroussel,Paris,48.8592971,2.3328879,5,09:30,18:30,Monday
+Pont Morland,Paris,48.8471128,2.3659914,5,09:30,18:30,Monday
+Angle des rues des Saules et Francœur,Paris,48.8908314,2.3405192,5,09:30,18:30,Monday
+Rue des Rosiers,Paris,48.8577892,2.3581374,5,09:30,18:30,Monday
+Square de Montsouris,Paris,48.8236132,2.3336268,5,09:30,18:30,Monday
+Rue Lamarck,Paris,48.8888739,2.3438778,5,09:30,18:30,Monday
+Rue de l'Abreuvoir,Paris,48.8882109,2.3389711,5,09:30,18:30,Monday
+Gare Abandonnée - Ateliers d’Avron,Paris,48.8535156,2.4076479,5,09:30,18:30,Monday
+La Petite Alsace,Paris,48.8278467,2.3463423,5,09:30,18:30,Monday
+Les Bateaux Lyonnais,Lyon,45.7609435,4.8307512,5,09:30,18:30,Monday
+Atelier Mattelon,Lyon,45.7801248,4.8353898,15,09:30,18:30,Monday
+Villa et Jardin Bagatelle,Lyon,45.6661314,4.8262489,5,09:30,18:30,Monday
+Maison Natale du Curé d'Ars,Lyon,45.804587,4.7534242,15,09:30,18:30,Monday
+Musée du papillon,Paris,48.8651689,2.4076338,15,09:30,18:30,Monday
+Marché aux Timbres,Paris,48.8687721,2.3144686,5,09:30,18:30,Monday
+Dassault Super Mystère B2,Lyon,45.8503899,4.7876931,5,09:30,18:30,Monday
+Dassault Mirage III C,Lyon,45.8553852,4.7872274,5,09:30,18:30,Monday
+Dassault Mirage F1 C,Lyon,45.8541256,4.7856027,5,09:30,18:30,Monday
+Espace culturel du christianisme à Lyon,Lyon,45.7600362,4.8231111,15,09:30,18:30,Monday
+old Toulouse-Lautrec's studio,Paris,48.887505,2.3332331,5,09:30,18:30,Monday
+Theo and Jo (Van Gogh bro),Paris,48.8802266,2.3337623,5,09:30,18:30,Monday
+Appartement de Ernest Hemingway,Paris,48.8448459,2.3495962,5,09:30,18:30,Monday
+Résidence Rollin,Paris,48.8448083,2.350314,5,09:30,18:30,Monday
+Entre'Vue,Lyon,45.7840258,4.7359961,15,09:30,18:30,Monday
+Musée des Moulages,Lyon,45.7515932,4.8543123,15,09:30,18:30,Monday
+Rue Mouffetard,Paris,48.8398068,2.3498169,5,09:30,18:30,Monday
+One Hour,Paris,48.8558602,2.3883293,5,09:30,18:30,Monday
+Le paradis des enfants,Paris,48.8323777,2.3253244,5,09:30,18:30,Monday
+Foire du Trône,Paris,48.8318631,2.4044439,60,09:30,18:30,Monday
+Barque du bac à traille,Lyon,45.6428452,4.8150265,5,09:30,18:30,Monday
+PILI RATP,Paris,48.8617098,2.3148081,5,09:30,18:30,Monday
+Cité de l'Économie,Paris,48.8818908,2.3106965,15,09:30,18:30,Monday
+Musée des Hospices Civils de Lyon,Lyon,45.7608407,4.8315116,15,09:30,18:30,Monday
+Maillot,Paris,48.8773674,2.2775542,5,09:30,18:30,Monday
+Sablons,Paris,48.878026,2.2687544,5,09:30,18:30,Monday
+Centre Kapla Animation,Lyon,45.7481001,4.840829,60,09:30,18:30,Monday
+Le Musée du Fumeur,Paris,48.8586455,2.382222,15,09:30,18:30,Monday
+Cité Internationale de la Gastronomie de Lyon,Lyon,45.7596898,4.8362144,15,09:30,18:30,Monday
+History Group Store,Paris,48.8579648,2.2993451,5,09:30,18:30,Monday
+Musco,Lyon,45.8144541,4.7725724,15,09:30,18:30,Monday
+Musée de la Photographie Saint-Bonnet-de-Mure,Lyon,45.689911,5.0289877,15,09:30,18:30,Monday
+Kid's Galaxy,Lyon,45.7000671,5.0152373,60,09:30,18:30,Monday
+Musée du flipper,Paris,48.8973362,2.3467198,15,09:30,18:30,Monday
+Gîte d'enfant de la Tuilerie,Lyon,45.793412,4.4817947,5,09:30,18:30,Monday
+Musée de la Magie,Paris,48.8531207,2.361167,15,09:30,18:30,Monday
+ComhiC eBike Segway Tour,Lyon,45.7640438,4.8288457,5,09:30,18:30,Monday
+Espace Muséal de Gandil,Lyon,45.7334838,5.0024745,15,09:30,18:30,Monday
+Mundolingua,Paris,48.8501854,2.3346494,15,09:30,18:30,Monday
+Little Villette,Paris,48.8906392,2.3898159,15,09:30,18:30,Monday
+Exalto,Lyon,45.768011,4.9794671,60,09:30,18:30,Monday
+Maison de pays,Lyon,45.6185926,4.6710147,15,09:30,18:30,Monday
+Musée de l'illusion,Paris,48.863307,2.3499796,15,09:30,18:30,Monday
+cour du Bon conseil,Paris,48.8488403,2.3080453,0,09:30,18:30,Monday
+Soierie Vivante,Lyon,45.7758106,4.8365935,15,09:30,18:30,Monday
+Soierie Vivante,Lyon,45.7758106,4.8365935,15,09:30,18:30,Monday
+Soierie Vivante,Lyon,45.7802088,4.8370503,15,09:30,18:30,Monday
+Soierie Vivante,Lyon,45.7802088,4.8370503,15,09:30,18:30,Monday
+Musée d'art religieux de Fourvière,Lyon,45.7618667,4.8226203,15,09:30,18:30,Monday
+Rivoli 59,Paris,48.8592267,2.3456573,5,09:30,18:30,Monday
+Parc du Grand Clos,Lyon,45.6137861,4.813317,0,09:30,18:30,Monday
+Musée de l'Illusion,Lyon,45.7590059,4.8361266,15,09:30,18:30,Monday
+institut culturel du judaïsme,Lyon,45.7518115,4.8511261,15,09:30,18:30,Monday
+Musée Paul Buyer,Lyon,45.6611358,4.6323444,15,09:30,18:30,Monday
+Fondation Azzedine Alaïa,Paris,48.8575225,2.3550725,15,09:30,18:30,Monday
+Magic mirror,Paris,48.8327962,2.3881581,5,09:30,18:30,Monday
+Traboule 27 quai Saint Antoine - 58 rue Mercière,Lyon,45.7625023,4.8325477,5,09:30,18:30,Monday
+The Walled Off Hotel,Paris,48.8746674,2.3416609,15,09:30,18:30,Monday
+Musée Banksy,Paris,48.8746285,2.3417156,15,09:30,18:30,Monday
+Europa Expérience,Paris,48.8707339,2.3258194,15,09:30,18:30,Monday
+La Bonne Maison,Lyon,45.7415011,4.809481,0,09:30,18:30,Monday
+Tomaselli Collection,Lyon,45.7781019,4.8005576,15,09:30,18:30,Monday
+Musée des soieries Brochier,Lyon,45.7597657,4.8372966,15,09:30,18:30,Monday
+Jacques Offenbach,Paris,48.8894063,2.3290814,5,09:30,18:30,Monday
+Pendule de Foucault,Paris,48.8461929,2.3461361,5,09:30,18:30,Monday
+Pendule de Foucault,Paris,48.8461929,2.3461361,5,09:30,18:30,Monday
+Pendule de Foucault,Paris,48.8659656,2.3550493,5,09:30,18:30,Monday
+Pendule de Foucault,Paris,48.8659656,2.3550493,5,09:30,18:30,Monday
+Wine and Ride Condrieu,Lyon,45.4629549,4.7788552,5,09:30,18:30,Monday
+square Elisa Lemonier,Lyon,45.749692,4.8605579,0,09:30,18:30,Monday
+Jardin du Presbytère,Lyon,45.8143117,4.8179248,0,09:30,18:30,Monday
+Grand Palais immersif,Paris,48.8512072,2.3704445,15,09:30,18:30,Monday
+Jardin des papillons,Paris,48.8396348,2.4425604,5,09:30,18:30,Monday
+Pirogue Monoxyle du Parc de la Tête d'Or,Lyon,45.7784854,4.847031,5,09:30,18:30,Monday
+Rex Studio,Paris,48.8705976,2.3472734,5,09:30,18:30,Monday
+Maison Gainsbourg,Paris,48.8574457,2.3311429,15,09:30,18:30,Monday
+Jungle Parc,Lyon,45.6465273,4.9078239,60,09:30,18:30,Monday
+Maison Traditionnelle Japonaise,Paris,48.8664875,2.2940497,5,09:30,18:30,Monday
+Plateau d'Yzeron,Lyon,45.7040426,4.5792132,60,09:30,18:30,Monday
+Paradox Museum,Paris,48.8712146,2.3344291,15,09:30,18:30,Monday
+Musée des égouts,Paris,48.8626334,2.3025814,15,09:30,18:30,Monday
+Park Events,Lyon,45.7157491,4.8592555,60,00:00,23:59,
+Musée social,Paris,48.8578592,2.321811,15,09:30,18:30,Monday
+Maison Poincaré,Paris,48.8441489,2.3439751,15,09:30,18:30,Monday
+Musée Curie,Paris,48.8442383,2.3447906,15,09:30,18:30,Monday
+Musée des géomètres-experts de la région Auvergne-Rhône-Alpes,Lyon,45.7428824,4.8213275,15,09:30,18:30,Monday
+Tombeau de Napoleon Ier,Paris,48.855027,2.3125378,5,09:30,18:30,Monday
+Animaponey,Paris,48.8783161,2.3098907,5,09:30,18:30,Monday
+Voiture RATP,Paris,48.8428105,2.3720181,5,09:30,18:30,Monday
+Ancienne Légation de Lituanie (1925-40),Paris,48.8827946,2.3111548,5,09:30,18:30,Monday
+Suricate,Paris,48.8333918,2.4191471,5,09:30,18:30,Monday
+Pécari,Paris,48.833814,2.4174714,5,09:30,18:30,Monday
+Ouistiti,Paris,48.8331903,2.4170601,5,09:30,18:30,Monday
+Nandou de Darwin,Paris,48.832124,2.4167573,5,09:30,18:30,Monday
+Gazelle de Mhorr,Paris,48.8327389,2.4183429,5,09:30,18:30,Monday
+Hippotrague,Paris,48.8316359,2.4195937,5,09:30,18:30,Monday
+Aquarium,Paris,48.8333192,2.4165249,5,09:30,18:30,Monday
+Caméléon,Paris,48.8334197,2.4165534,5,09:30,18:30,Monday
+Lamantin,Paris,48.833401,2.4169031,5,09:30,18:30,Monday
+Serpents,Paris,48.8336079,2.4172073,5,09:30,18:30,Monday
+Fourmi,Paris,48.8336574,2.4169327,5,09:30,18:30,Monday
+Lémuriens,Paris,48.8332408,2.4158162,5,09:30,18:30,Monday
+Lémuriens,Paris,48.8332408,2.4158162,5,09:30,18:30,Monday
+Repère de crue 1910,Paris,48.8429972,2.2794193,5,09:30,18:30,Monday
+Église Saint Antoine,Paris,48.8486784,2.3742707,5,09:30,18:30,Monday
+La Baie des Pirates,Lyon,45.7490416,4.741233,60,09:30,18:30,Monday
+Circuit de Land’Art,Lyon,45.6585476,4.6023867,5,09:30,18:30,Monday
+La Maison Elysée,Paris,48.8708455,2.3170121,15,09:30,18:30,Monday
+Musée du Parfum Fragonard,Paris,48.8715287,2.330216,15,09:30,18:30,Monday
+Abandoned car in the Forest,Lyon,45.800215,4.9981935,5,09:30,18:30,Monday
+Musée de l'informatique du centre de calcul de l'IN2P3,Lyon,45.7826131,4.8653343,15,09:30,18:30,Monday
+Science Expériences,Lyon,45.7616492,4.8361288,15,09:30,18:30,Monday
+Musée français de la radiologie et de l'imagerie médicale,Paris,48.8242959,2.3481253,15,09:30,18:30,Monday
+Musée Méliès,Paris,48.8368258,2.3823836,15,09:30,18:30,Monday
+Musée de l'Arc de Triomphe,Paris,48.8739094,2.2952454,15,09:30,18:30,Monday
+Salle des traditions de la Garde républicaine,Paris,48.8513463,2.3638643,15,09:30,18:30,Monday
+Maison d'Auguste Comte,Paris,48.851041,2.3393342,15,09:30,18:30,Monday
+Mémorial du bombardement de Paris du 20 janvier 1918 et de la libération de Paris le 15 août 1944,Paris,48.8455769,2.3396519,5,09:30,18:30,Monday
+Le Donjon - Escape The Room,Paris,48.8674366,2.3641835,5,09:30,18:30,Monday
+Alley Concept Street,Paris,48.8857206,2.3385525,5,09:30,18:30,Monday
+Musée national Jean-Jacques Henner,Paris,48.8830349,2.3076969,15,09:30,18:30,Monday
+Droguier de Lyon,Lyon,45.7411958,4.8813131,15,09:30,18:30,Monday
+La Voie Bleue - Km 0,Lyon,45.7334485,4.8189137,5,09:30,18:30,Monday
+Musée du Nouvel Institut Franco-Chinois,Lyon,45.7546436,4.811146,15,09:30,18:30,Monday
+Sainte-Luce,Lyon,45.781267,4.7390606,0,09:30,18:30,Monday
+Musée de la Légion d'Honneur et des Ordres de Chevalerie,Paris,48.8602946,2.3247235,15,09:30,18:30,Monday
+"Paris Plages, Caroussel, Boats, Fun",Paris,48.8870296,2.3776204,60,09:30,18:30,Monday
+Pop Corn Labyrinthe,Lyon,45.6464533,4.9787902,60,09:30,18:30,Monday
+Phono Museum,Paris,48.8820921,2.3413277,15,09:30,18:30,Monday
+Musée Hector Guimard,Paris,48.8506221,2.2708181,15,09:30,18:30,Monday
+Pagoda Paris,Paris,48.8766896,2.3076952,15,09:30,18:30,Monday
+"Plaque commémorative du bombardement de Paris par l'avions allemands, le 30 janvier 1918",Paris,48.8456575,2.3401335,5,09:30,18:30,Monday
+Plaque commémorant le bombardement du allemand «  canons parisiens » le 12 avril 1918,Paris,48.8555965,2.3599315,5,09:30,18:30,Monday
+Espace Krajcberg,Paris,48.84353,2.3216046,15,09:30,18:30,Monday
+Astrolabe ESA HQ Visitor Center and Space Shop,Paris,48.8484072,2.3041079,15,09:30,18:30,Monday
+Oryx d'ArabiÉmeu,Paris,48.845196,2.3619188,5,09:30,18:30,Monday
+Certopithèque de l'Hoest,Paris,48.8451526,2.3611224,5,09:30,18:30,Monday
+Mangabey couronné,Paris,48.845225,2.3611956,5,09:30,18:30,Monday
+Mangabey couronné,Paris,48.845225,2.3611956,5,09:30,18:30,Monday
+Mangabey couronné,Paris,48.8452637,2.3608992,5,09:30,18:30,Monday
+Mangabey couronné,Paris,48.8452637,2.3608992,5,09:30,18:30,Monday
+Mangabey noir,Paris,48.8453205,2.360942,5,09:30,18:30,Monday
+Panthère de Chine du Nord,Paris,48.8458278,2.3608576,5,09:30,18:30,Monday
+Orang-outan de Bornéo,Paris,48.8451744,2.3609946,5,09:30,18:30,Monday
+La maison des histoires,Paris,48.8547976,2.3742376,15,09:30,18:30,Monday
+Fondation Cartier pour l'art contemporain,Paris,48.8621189,2.3382323,15,09:30,18:30,Monday
+Amazone à joues vertes,Paris,48.845857,2.3602594,5,09:30,18:30,Monday
+Jurassic Island,Paris,48.8781433,2.2655118,5,09:30,18:30,Monday
+Micro-Folie,Lyon,45.7911379,4.7854002,15,09:30,18:30,Monday
+Ancien Garage du Méridien,Lyon,45.7736112,4.7528002,5,09:30,18:30,Monday
+La Maison des histoires,Paris,48.8516688,2.3283045,15,09:30,18:30,Monday
+Parc de la Garde,Lyon,45.7601686,4.7908422,0,09:30,18:30,Monday
+Hall d'honneur,Paris,48.8430301,2.3356999,5,09:30,18:30,Monday
+Parcours Biodiversité,Paris,48.830918,2.4182107,5,09:30,18:30,Monday

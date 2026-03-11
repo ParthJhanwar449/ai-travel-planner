@@ -1,0 +1,359 @@
+name,category,latitude,longitude,city,estimated_cost,distance_from_center,is_outdoor
+Centre d'Histoire de la Résistance et de la Déportation,museum,45.7464306,4.8359519,Lyon,15,1.9537258932049786,0
+Musée urbain Tony Garnier,museum,45.7335086,4.8629827,Lyon,15,3.9971013131298334,0
+Musée de l'Armée,museum,48.8570374,2.3118779,Paris,15,2.9503625755948693,0
+Point zéro des Routes de France,attraction,48.8534015,2.3487885,Paris,5,0.43449869519065487,0
+Musée des Arts Décoratifs,museum,48.8631692,2.3329513,Paris,15,1.5863330873239025,0
+Musée des Arts et Métiers,museum,48.8660977,2.3554138,Paris,15,1.0819477452815671,0
+Centre d'art contemporain du Fort du Bruissin,museum,45.7305319,4.7385345,Lyon,15,8.40795430248367,0
+Musée national Gustave Moreau,museum,48.8778955,2.3345468,Paris,15,2.6971260906947943,0
+Musée Grévin,museum,48.8718365,2.3420974,Paris,15,1.8483781573569538,0
+Musée Edith Piaf,museum,48.8662368,2.3817367,Paris,15,2.411822954282799,0
+Espace Dali,museum,48.88648,2.3399022,Paris,15,3.442096804659077,0
+Cité des Sciences et de l'Industrie,museum,48.8957518,2.3879761,Paris,15,5.0791891837421135,0
+Maison de Victor Hugo,museum,48.854799,2.3661358,Paris,15,1.039046364702517,0
+Vedettes de Paris,attraction,48.8588633,2.2918544,Paris,5,4.421966149021577,0
+Maison européenne de la Photographie,museum,48.8551205,2.3589562,Paris,15,0.5209506664772934,0
+Robinier du square René Viviani,attraction,48.8521855,2.3472903,Paris,5,0.6082644740520968,1
+Cité des Enfants (5-12 ans),museum,48.8957352,2.3886935,Paris,15,5.104839132264921,0
+Place du Carrousel,attraction,48.861633,2.3340447,Paris,5,1.4412709281544487,1
+Catacombes de Paris,museum,48.8337439,2.3322925,Paris,15,2.9293875158166323,0
+Fontaine Cuvier,attraction,48.8439963,2.3550311,Paris,5,1.4166941380025735,1
+Ferme caprine de l'Hermitage,attraction,45.8282326,4.7784778,Lyon,5,8.407928522272822,0
+Lavoir,attraction,45.8374134,4.8053212,Lyon,5,8.496098202047591,0
+Le Petit Bouillon Pharamond,attraction,48.8630052,2.3485011,Paris,5,0.761897119701666,0
+Fontaine Médicis,attraction,48.8480587,2.3392944,Paris,5,1.3392705299925736,1
+Conciergerie,museum,48.8559492,2.3460263,Paris,15,0.45743269829917993,0
+Brasserie Bofinger,attraction,48.8539095,2.3680433,Paris,5,1.1971160679533441,0
+Musée du Vin,museum,48.8575222,2.284569,Paris,15,4.948917064820261,0
+Renard des Steppes,attraction,48.8453955,2.3614522,Paris,5,1.4179255165914197,0
+Takin,attraction,48.8449433,2.3611035,Paris,5,1.450670061263894,0
+Markhor,attraction,48.8455992,2.3601919,Paris,5,1.3558156507313033,0
+Cheval de Przewalski,attraction,48.8455987,2.3610025,Paris,5,1.3824809276970051,0
+Tapir malais,attraction,48.8460274,2.36141,Paris,5,1.3550613789781678,0
+Chèvres des montagnes rocheuses,attraction,48.845395,2.3600837,Paris,5,1.3729917641197638,0
+Flamant des Caraïbes,attraction,48.8451325,2.3585787,Paris,5,1.3578582966403543,0
+Vigognes,attraction,48.8448648,2.3615333,Paris,5,1.4727903753236673,0
+Casoars à casque,attraction,48.8461195,2.360275,Paris,5,1.3065940082209437,0
+Oryx d'Arabie,attraction,48.8449788,2.3620536,Paris,5,1.4797412505128875,0
+Gaur,attraction,48.8444306,2.35884,Paris,5,1.4377508503431788,0
+Pademelons,attraction,48.8450246,2.3589585,Paris,5,1.3788522379210388,0
+Sanglier de Visayas,attraction,48.8448968,2.3592364,Paris,5,1.3994791390490144,0
+Chèvres du Sénégal,attraction,48.8445478,2.3594168,Paris,5,1.4404227053704333,0
+Wallaby de Bennett,attraction,48.844406,2.3578617,Paris,5,1.4177825258977872,0
+Gaur,attraction,48.8446941,2.3581762,Paris,5,1.3942215773125717,0
+Goral,attraction,48.8451002,2.3603422,Paris,5,1.4106898526965501,0
+Gaur,attraction,48.8443675,2.3593861,Paris,5,1.4582828423143084,0
+Potamochère roux,attraction,48.8446411,2.3605583,Paris,5,1.4636602674622363,0
+Ara,attraction,48.8457133,2.3599754,Paris,5,1.3375657025977954,0
+Musée de la Poste,museum,48.8414555,2.317219,Paris,15,3.0638876792880665,0
+Galerie-musée Baccarat,museum,48.8677391,2.2936393,Paris,15,4.459307950033078,0
+Trompe-œil Bach,attraction,48.8307373,2.366252,Paris,5,3.0541217442547013,0
+Himalaya,attraction,48.844063,2.3591577,Paris,5,1.4840993933256488,0
+Serre de Nouvelle-Calédonie,attraction,48.8431338,2.3572563,Paris,5,1.5424020149039999,0
+Cévennes,attraction,48.8439327,2.3586581,Paris,5,1.4856896416539094,0
+Maroc,attraction,48.8441742,2.3588085,Paris,5,1.4638532663006036,0
+Corse,attraction,48.8441587,2.3590142,Paris,5,1.4705149199752405,0
+Forêts tropicales humides,attraction,48.8433054,2.3580196,Paris,5,1.5383985221937162,0
+Rapaces diurnes,attraction,48.8458624,2.3599834,Paris,5,1.3228312820225434,0
+Espagne,attraction,48.8441758,2.3585181,Paris,5,1.456803835609028,0
+Balkans,attraction,48.8440565,2.3582832,Paris,5,1.464073420585598,0
+Provence,attraction,48.8441366,2.3586465,Paris,5,1.4639381121785116,0
+Préalpes,attraction,48.8439166,2.3585197,Paris,5,1.4842009153459736,0
+USA,attraction,48.8440008,2.3589658,Paris,5,1.4858611043867793,0
+Zone arides des déserts,attraction,48.8431839,2.3575411,Paris,5,1.5421430771915527,0
+Alpes,attraction,48.8439389,2.358275,Paris,5,1.476355737347981,0
+Histoire des Plantes,attraction,48.8429803,2.3568019,Paris,5,1.5514234852212334,0
+Caucase,attraction,48.8441665,2.359246,Paris,5,1.4755390959389212,0
+La Galerie des Enfants,attraction,48.8425172,2.3561671,Paris,5,1.592612555295401,0
+Japon - Chine,attraction,48.8440975,2.3594894,Paris,5,1.4890165723519793,0
+Tourbière,attraction,48.8438012,2.3582264,Paris,5,1.4899077977848052,1
+Rapaces nocturnes,attraction,48.8445919,2.3612089,Paris,5,1.4890847855146072,0
+Panda roux,attraction,48.8441801,2.3598139,Paris,5,1.4891635936124883,0
+Binturong,attraction,48.8442979,2.3601736,Paris,5,1.487150613581706,0
+Musée du Service de Santé des Armées,museum,48.8403652,2.3414281,Paris,15,1.9697992925776615,0
+Musée du chocolat,museum,48.870585,2.3500955,Paris,15,1.5626623720545583,0
+Cabinet de curiosités,attraction,48.8733087,2.3423149,Paris,5,1.9936687186443476,0
+Cité de l'architecture et du patrimoine,museum,48.8628901,2.288981,Paris,15,4.677415888639227,0
+Musée de la Marine,museum,48.8618163,2.2873421,Paris,15,4.780093523974103,0
+Musée de la Franc-Maçonnerie,museum,48.8749151,2.3431481,Paris,15,2.1414762907961444,0
+City Aventure Lyon - Ste Foy,attraction,45.7258436,4.7930643,Lyon,5,5.380250095431281,0
+Espace des Sciences Pierre-Gilles de Gennes,museum,48.8411575,2.3473052,Paris,15,1.754082652684313,0
+Fondation Le Corbusier,museum,48.8519022,2.2652413,Paris,15,6.383626377886006,0
+Musée de la Contrefaçon,museum,48.8703234,2.2765175,Paris,15,5.742647418551602,0
+Pavillons de Bercy,museum,48.8327663,2.3893382,Paris,15,3.7959593694057916,0
+Musée Cinéma & Miniature,museum,45.7618753,4.8272985,Lyon,15,0.6932284988594618,0
+Musée Adam Mickiewicz,museum,48.8513494,2.355588,Paris,15,0.6342820230596118,0
+Musée Clemenceau,museum,48.8591945,2.285142,Paris,15,4.914327547140994,0
+Musée-Librairie du Compagnonnage,museum,48.8522269,2.335005,Paris,15,1.3487524307992644,0
+Musée Valentin Haüy,museum,48.8476741,2.3140391,Paris,15,2.9632686703836653,0
+Musée d'Histoire de la Médecine,museum,48.8513247,2.3409022,Paris,15,1.013578001456663,0
+Musée Maillol,museum,48.8547723,2.3249025,Paris,15,2.007442068084314,0
+Musée de Minéralogie,museum,48.8453935,2.3394599,Paris,15,1.5561898146764994,0
+Musée Moissan,museum,48.8434624,2.3362665,Paris,15,1.869023120292689,0
+Bibliothèque-Musée de l'Opéra,museum,48.871882,2.331212,Paris,15,2.2900996556237643,0
+Musée de la Préfecture de Police,museum,48.8494311,2.3483534,Paris,15,0.8453686658767962,0
+Square Georges Contenot,park,48.8373537,2.3964048,Paris,0,3.878528666989394,1
+Institut d'art contemporain,museum,45.7625393,4.8727591,Lyon,15,2.8793447116725046,0
+Musée de l'automobile Henri Malartre,museum,45.8449493,4.8371587,Lyon,15,9.001861638247377,0
+Tours de Notre-Dame,attraction,48.8533658,2.3493036,Paris,5,0.4174163226974136,1
+Le Gros Caillou,attraction,45.7745651,4.8350113,Lyon,5,1.1759993752850764,0
+Fontaine à l'eau ferrugineuse,attraction,45.6630605,4.7115351,Lyon,5,14.79572087737138,1
+Fondation Bullukian,museum,45.7566217,4.8311317,Lyon,15,0.8936993714675281,0
+Trésor de Notre-Dame,museum,48.8526313,2.3500601,Paris,15,0.4682485198406554,0
+Le Lido,attraction,48.8724266,2.3008705,Paris,5,4.146647637098932,0
+Chais et Entrepôts de Bercy,attraction,48.8327851,2.3883176,Paris,5,3.7413721407127407,0
+Musée National d'Art Moderne,museum,48.860324,2.3522598,Paris,15,0.41411301595244804,0
+Cité Florale,attraction,48.822703,2.3448195,Paris,5,3.807680286260062,0
+Tour de l'Horloge,attraction,48.856193,2.3462327,Paris,5,0.4389103253448063,1
+Carrières souterraines des Capucins,attraction,48.8371564,2.3395284,Paris,5,2.352475584346501,0
+Le Petit Train,attraction,48.8222506,2.3378888,Paris,5,3.9604802405566146,0
+Maison de Madame Violet Trefusis,attraction,48.850924,2.328973,Paris,5,1.81280572489468,0
+Canauxrama,attraction,48.8508544,2.3681264,Paris,5,1.3288973696071715,0
+Art Ludique - Le Musée,museum,48.8405179,2.3703276,Paris,15,2.2264891837694543,0
+Collection des minéraux,museum,48.8475408,2.3548406,Paris,15,1.0256977805425647,0
+Musée d'histoire de la médecine et de la pharmacie de Lyon,museum,45.7414332,4.8805413,Lyon,15,4.28961524908914,0
+Entrée du musée gallo-romain de Lyon,museum,45.759028,4.8211073,Lyon,15,1.2598159551128558,0
+Babouin de Guinée,attraction,48.8332416,2.4198595,Paris,5,5.591058720888265,0
+Capucin,attraction,48.8327665,2.4172099,Paris,5,5.445640989085168,0
+Capybara,attraction,48.8335185,2.4176311,Paris,5,5.432555480606452,0
+Chien des buissons,attraction,48.8335694,2.4181101,Paris,5,5.460815333219707,0
+Girafe,attraction,48.8323403,2.4194524,Paris,5,5.612211785759889,0
+Glouton,attraction,48.8339227,2.4183487,Paris,5,5.457966721566156,0
+Grand Koudou,attraction,48.8328776,2.4184285,Paris,5,5.517792309597752,0
+Guanaco,attraction,48.8317882,2.4168664,Paris,5,5.4777117717601085,0
+Jaguar,attraction,48.8334011,2.4180359,Paris,5,5.464836204476916,0
+Lion d'Afrique,attraction,48.8310766,2.41959,Paris,5,5.689867824588962,0
+Loup ibérique,attraction,48.8341311,2.4190277,Paris,5,5.491490341083392,0
+Lynx d'Europe,attraction,48.8338315,2.4180006,Paris,5,5.440104084397021,0
+Mara,attraction,48.8322148,2.416247,Paris,5,5.414675458741677,0
+Marabout d'Afrique,attraction,48.8327121,2.4179368,Paris,5,5.495094558248371,0
+Propithèque couronné,attraction,48.8328041,2.4159236,Paris,5,5.361540633059296,0
+Poudou,attraction,48.8310245,2.4177516,Paris,5,5.576624353212595,0
+Singe laineux,attraction,48.8329881,2.4174663,Paris,5,5.450117316506675,0
+Tapir terrestre,attraction,48.8333984,2.417529,Paris,5,5.4323062421984805,0
+Vautour fauve,attraction,48.8343102,2.419898,Paris,5,5.539331456274673,1
+Zèbre de Grévy,attraction,48.8316935,2.4183734,Paris,5,5.578483248874689,0
+Autruche,attraction,48.8325853,2.4182148,Paris,5,5.519724726859747,0
+Addax,attraction,48.8321129,2.4185267,Paris,5,5.565241856830703,0
+Grand Calao terrestre,attraction,48.8313143,2.4186572,Paris,5,5.617521803954482,0
+Grue couronnée,attraction,48.8326179,2.4184909,Paris,5,5.535667524347601,0
+Manchot de Humboldt,attraction,48.8317571,2.4175394,Paris,5,5.522044042536681,0
+Vigogne,attraction,48.8326251,2.415763,Paris,5,5.36119900434033,0
+Otarie à crinière,attraction,48.8320654,2.4172845,Paris,5,5.488768356447408,0
+Puma,attraction,48.831296,2.4179519,Paris,5,5.573926517601201,0
+Rhinocéros blanc,attraction,48.8315124,2.4188586,Paris,5,5.619309794928675,0
+Aigrette garzette,attraction,48.833723,2.418647,Paris,5,5.487602144104699,0
+Ara hyacinthe,attraction,48.8333367,2.4172979,Paris,5,5.420702955313655,0
+Avocette élégante,attraction,48.833656,2.41868,Paris,5,5.4932009863671425,0
+Calao trompette,attraction,48.8336347,2.4185416,Paris,5,5.485336977414167,0
+Chevalier gambette,attraction,48.8335914,2.4187338,Paris,5,5.500028346314696,0
+Cigogne d'Abdim,attraction,48.8337427,2.4188073,Paris,5,5.496984623214589,0
+Dendrocygne fauve,attraction,48.833559,2.4186222,Paris,5,5.494480831755614,0
+Echasse blanche,attraction,48.8335487,2.4188435,Paris,5,5.509344977109715,0
+Flamant rose,attraction,48.8335036,2.4187406,Paris,5,5.505020435745712,0
+Fossa,attraction,48.833464,2.415708,Paris,5,5.311874764435077,0
+Lémuriens,attraction,48.8331122,2.4160451,Paris,5,5.35246287911627,0
+Héron garde-bœuf,attraction,48.8336902,2.4187471,Paris,5,5.495784694278629,0
+Ibis chauve,attraction,48.8337317,2.4187481,Paris,5,5.493710299669532,0
+Ibis falcinelle,attraction,48.8337548,2.4187199,Paris,5,5.4906913240180595,0
+Loutre d'Europe,attraction,48.8338687,2.4201002,Paris,5,5.574674114263499,0
+Milan royal,attraction,48.8340761,2.4198391,Paris,5,5.547191634763811,0
+Ombrette,attraction,48.8336728,2.418609,Paris,5,5.487731489836019,0
+Pigeon de Guinée,attraction,48.833626,2.4188171,Paris,5,5.503636733452522,0
+Roussette paillée africaine,attraction,48.83363,2.4167909,Paris,5,5.372534764397144,0
+Sarcelle hottentote,attraction,48.8335077,2.4186125,Paris,5,5.496517615906011,0
+Souchet d'Europe,attraction,48.8335388,2.4186801,Paris,5,5.499277194168744,0
+Spatule d'Afrique,attraction,48.833693,2.418539,Paris,5,5.482151083285819,0
+Tantale ibis,attraction,48.8336694,2.4188689,Paris,5,5.50475566860455,0
+Tortue rayonnée,attraction,48.8327045,2.4163472,Paris,5,5.393973527425581,0
+Touraco violet,attraction,48.8335913,2.4185543,Paris,5,5.488409294299252,1
+Vanneau armé,attraction,48.8336099,2.4188822,Paris,5,5.508687981066032,0
+Vautour moine,attraction,48.8342155,2.4199097,Paris,5,5.544820285682814,1
+Vautour percnoptère,attraction,48.8341778,2.4198114,Paris,5,5.540280345149073,1
+Vivarium européen,attraction,48.8338149,2.4198954,Paris,5,5.564044505479224,0
+Grille du Coq,attraction,48.8684576,2.3152392,Paris,5,3.0081006156892003,0
+Clos de la Rosette,attraction,45.8335307,4.8072341,Lyon,5,8.040228780726396,0
+Bureau de Gustave Eiffel,attraction,48.8582685,2.2945812,Paris,5,4.219415829035142,0
+Musée de l'Ordre de la Libération,museum,48.8556933,2.311332,Paris,15,2.9916391454706925,0
+Musée des Plans-Reliefs,museum,48.8564589,2.3132374,Paris,15,2.8505603998302025,0
+Boutique Souvenirs du Petit Musée de Guignol,museum,45.7639034,4.8281374,Lyon,15,0.586739510974691,0
+Caborne,attraction,45.8416918,4.8005465,Lyon,5,9.058521827944048,0
+Cour de l'Etoile d'Or,attraction,48.8522054,2.3749353,Paris,5,1.7336846040225582,0
+Musée de l'Homme,museum,48.8620467,2.2876525,Paris,15,4.76073491622028,0
+Maison des mathématiques et de l'informatique,museum,45.7299317,4.8280106,Lyon,15,3.834922231661481,0
+Caborne,attraction,45.8394678,4.8139127,Lyon,5,8.559908337014992,0
+Caborne,attraction,45.8323485,4.812665,Lyon,5,7.806986273020349,0
+Cité des Enfants (2-7 ans),museum,48.8961521,2.3880996,Paris,15,5.122010311352363,0
+La Tour Rose,attraction,45.7629626,4.8269316,Lyon,5,0.6898946598703158,1
+#onlylyon,attraction,45.7305017,4.8182051,Lyon,5,3.9645015047296437,0
+Musée en Herbe,museum,48.8601457,2.3421021,Paris,15,0.8373641757520558,0
+Fontaine du Fellah,attraction,48.84879,2.3210687,Paris,5,2.4376884024711067,1
+Mini World Lyon,attraction,45.7647877,4.9232356,Lyon,5,6.790766435329412,0
+Rue des Eaux,attraction,48.8575654,2.28408,Paris,5,4.984783447170297,0
+Institut Lumière,museum,45.7450881,4.8706151,Lyon,15,3.4293130015679196,0
+Champs Élysées,attraction,48.8707573,2.3053312,Paris,5,3.7725882779259954,0
+Musée des Archives nationales,museum,48.8604503,2.3578119,Paris,15,0.5931708503126406,0
+Musée Boleslas Biegas,museum,48.8513131,2.35562,Paris,15,0.6389126683866839,0
+Le Génie de la Liberté,park,48.8531664,2.3691393,Paris,0,1.296803297287227,1
+Anoa,attraction,48.845316,2.3624736,Paris,5,1.462665286121618,0
+Tortue géante des Seychelles,attraction,48.8445932,2.3596855,Paris,5,1.4430737671773357,0
+Porcs-épics,attraction,48.8454834,2.3595762,Paris,5,1.3487949004809419,0
+Outardes Houbara,attraction,48.8463094,2.3605176,Paris,5,1.296034920755277,0
+Bharal,attraction,48.8456281,2.3605739,Paris,5,1.3652302595440267,0
+Chat de Pallas,attraction,48.8447297,2.3618426,Paris,5,1.496651574500432,0
+Martre à gorge jaune,attraction,48.8447668,2.362017,Paris,5,1.4990868846635927,0
+Arkal,attraction,48.8443683,2.3597438,Paris,5,1.467840263654195,0
+Nilgaut,attraction,48.8449237,2.3606068,Paris,5,1.436686234204767,0
+Nandou,attraction,48.8447013,2.3610306,Paris,5,1.4724150042065232,0
+Versalles,attraction,48.8324071,2.2880076,Paris,5,5.413222093991953,0
+Hôtel d'Estaing,attraction,45.7615067,4.8272594,Lyon,5,0.7110399109675762,0
+Sortie des Catacombes,attraction,48.8295257,2.3345327,Paris,5,3.276405480238813,0
+Montparnasse,attraction,48.8424217,2.3286868,Paris,5,2.333572341448826,0
+Maison des Canuts,museum,45.777106,4.8336847,Lyon,15,1.4656796364591484,0
+Musée National de l'Histoire de l'Immigration,museum,48.8351424,2.4093613,Paris,15,4.8154910336142125,0
+"Plaque commémorant la première frappe du canon allemand « Pariser Kanonen », le 23 mars 1918",attraction,48.8847546,2.3708845,Paris,5,3.4159181247707884,0
+Barthélémy,attraction,48.8544952,2.3255993,Paris,5,1.960176951075224,0
+King Aventure,theme_park,45.8015106,4.7665084,Lyon,60,6.795990342833074,1
+Musée Jean Couty,museum,45.797918,4.8293849,Lyon,15,3.803171207932315,0
+Musée de la Musique,museum,48.8901928,2.393712,Paris,15,4.813541268619602,0
+Gnomon astronomique,attraction,48.8512608,2.3349582,Paris,5,1.3942043466310208,0
+Musée de la psychiatrie et des neurosciences,museum,48.8297287,2.3400182,Paris,15,3.1181026370840077,0
+Pont du Carroussel,attraction,48.8592971,2.3328879,Paris,5,1.4443194656009397,0
+Pont Morland,attraction,48.8471128,2.3659914,Paris,5,1.4598328950456603,0
+Angle des rues des Saules et Francœur,attraction,48.8908314,2.3405192,Paris,5,3.901044985777838,0
+Rue des Rosiers,attraction,48.8577892,2.3581374,Paris,5,0.45405779007058295,0
+Square de Montsouris,attraction,48.8236132,2.3336268,Paris,5,3.911722582407476,1
+Rue Lamarck,attraction,48.8888739,2.3438778,Paris,5,3.6399434844682683,0
+Rue de l'Abreuvoir,attraction,48.8882109,2.3389711,Paris,5,3.645699999391488,0
+Gare Abandonnée - Ateliers d’Avron,attraction,48.8535156,2.4076479,Paris,5,4.071178822595073,0
+La Petite Alsace,attraction,48.8278467,2.3463423,Paris,5,3.225830727143153,0
+Les Bateaux Lyonnais,attraction,45.7609435,4.8307512,Lyon,5,0.5127235204345725,0
+Atelier Mattelon,museum,45.7801248,4.8353898,Lyon,15,1.7931573634627485,0
+Villa et Jardin Bagatelle,attraction,45.6661314,4.8262489,Lyon,5,10.907202009343887,1
+Maison Natale du Curé d'Ars,museum,45.804587,4.7534242,Lyon,15,7.814802246119885,0
+Musée du papillon,museum,48.8651689,2.4076338,Paris,15,4.165637256838153,0
+Marché aux Timbres,attraction,48.8687721,2.3144686,Paris,5,3.0740955392771254,0
+Espace culturel du christianisme à Lyon,museum,45.7600362,4.8231111,Lyon,15,1.0714276840490413,0
+old Toulouse-Lautrec's studio,attraction,48.887505,2.3332331,Paris,5,3.705900424660038,0
+Theo and Jo (Van Gogh bro),attraction,48.8802266,2.3337623,Paris,5,2.9530745891235077,0
+Appartement de Ernest Hemingway,attraction,48.8448459,2.3495962,Paris,5,1.3208088514325123,0
+Résidence Rollin,attraction,48.8448083,2.350314,Paris,5,1.318419021969563,0
+Entre'Vue,museum,45.7840258,4.7359961,Lyon,15,8.047002600134771,0
+Musée des Moulages,museum,45.7515932,4.8543123,Lyon,15,1.9970445876701544,0
+Rue Mouffetard,attraction,48.8398068,2.3498169,Paris,5,1.8754429857634263,0
+One Hour,attraction,48.8558602,2.3883293,Paris,5,2.6445275802567334,0
+Le paradis des enfants,attraction,48.8323777,2.3253244,Paris,5,3.335011158046183,0
+Foire du Trône,theme_park,48.8318631,2.4044439,Paris,60,4.709792769646105,1
+PILI RATP,attraction,48.8617098,2.3148081,Paris,5,2.7938465599723674,0
+Cité de l'Économie,museum,48.8818908,2.3106965,Paris,15,4.138069671307662,0
+Musée des Hospices Civils de Lyon,museum,45.7608407,4.8315116,Lyon,15,0.478514484907225,0
+Maillot,attraction,48.8773674,2.2775542,Paris,5,5.928223171213533,0
+Sablons,attraction,48.878026,2.2687544,Paris,5,6.55209716574567,0
+Centre Kapla Animation,theme_park,45.7481001,4.840829,Lyon,60,1.8122148159084608,1
+Le Musée du Fumeur,museum,48.8586455,2.382222,Paris,15,2.208117437486818,0
+Cité Internationale de la Gastronomie de Lyon,museum,45.7596898,4.8362144,Lyon,15,0.48093071617293626,0
+History Group Store,attraction,48.8579648,2.2993451,Paris,5,3.8698013160739158,0
+Musco,museum,45.8144541,4.7725724,Lyon,15,7.445309013309612,0
+Musée du flipper,museum,48.8973362,2.3467198,Paris,15,4.547353605922713,0
+Musée de la Magie,museum,48.8531207,2.361167,Paris,15,0.7616291938529844,0
+ComhiC eBike Segway Tour,attraction,45.7640438,4.8288457,Lyon,5,0.5317190221910091,1
+Mundolingua,museum,48.8501854,2.3346494,Paris,15,1.4688902271165651,0
+Little Villette,museum,48.8906392,2.3898159,Paris,15,4.679146352606592,0
+Musée de l'illusion,museum,48.863307,2.3499796,Paris,15,0.7632687427069735,0
+cour du Bon conseil,park,48.8488403,2.3080453,Paris,0,3.343858498927593,1
+Soierie Vivante,museum,45.7758106,4.8365935,Lyon,15,1.315106102383299,0
+Soierie Vivante,museum,45.7802088,4.8370503,Lyon,15,1.805376542983297,0
+Musée d'art religieux de Fourvière,museum,45.7618667,4.8226203,Lyon,15,1.041988924091239,0
+Rivoli 59,attraction,48.8592267,2.3456573,Paris,5,0.5607288772714277,0
+Musée de l'Illusion,museum,45.7590059,4.8361266,Lyon,15,0.5563037853730721,0
+institut culturel du judaïsme,museum,45.7518115,4.8511261,Lyon,15,1.8080527389102858,0
+Fondation Azzedine Alaïa,museum,48.8575225,2.3550725,Paris,15,0.2338492883597038,0
+Magic mirror,attraction,48.8327962,2.3881581,Paris,5,3.732260372922869,0
+Traboule 27 quai Saint Antoine - 58 rue Mercière,attraction,45.7625023,4.8325477,Lyon,5,0.29585468946891297,0
+The Walled Off Hotel,museum,48.8746674,2.3416609,Paris,15,2.1518333587865763,0
+Musée Banksy,museum,48.8746285,2.3417156,Paris,15,2.146362776770471,0
+Europa Expérience,museum,48.8707339,2.3258194,Paris,15,2.4887494777649577,0
+La Bonne Maison,park,45.7415011,4.809481,Lyon,0,3.224438112094969,1
+Tomaselli Collection,museum,45.7781019,4.8005576,Lyon,15,3.144556357197622,0
+Musée des soieries Brochier,museum,45.7597657,4.8372966,Lyon,15,0.4868505713236478,0
+Jacques Offenbach,attraction,48.8894063,2.3290814,Paris,5,4.020691863306259,0
+Pendule de Foucault,attraction,48.8461929,2.3461361,Paris,5,1.2393565672450424,0
+Pendule de Foucault,attraction,48.8659656,2.3550493,Paris,5,1.0620614493393667,0
+square Elisa Lemonier,park,45.749692,4.8605579,Lyon,0,2.500069198985952,1
+Jardin du Presbytère,park,45.8143117,4.8179248,Lyon,0,5.761672965786069,1
+Grand Palais immersif,museum,48.8512072,2.3704445,Paris,15,1.4633491770142673,0
+Jardin des papillons,attraction,48.8396348,2.4425604,Paris,5,6.875754763828521,1
+Pirogue Monoxyle du Parc de la Tête d'Or,attraction,45.7784854,4.847031,Lyon,5,1.834866421912712,1
+Rex Studio,attraction,48.8705976,2.3472734,Paris,5,1.5976384572410736,0
+Maison Gainsbourg,museum,48.8574457,2.3311429,Paris,15,1.543396976505873,0
+Maison Traditionnelle Japonaise,attraction,48.8664875,2.2940497,Paris,5,4.393651724532563,0
+Paradox Museum,museum,48.8712146,2.3344291,Paris,15,2.0810280251257818,0
+Musée des égouts,museum,48.8626334,2.3025814,Paris,15,3.691366352423879,0
+Park Events,theme_park,45.7157491,4.8592555,Lyon,60,5.668123407459904,1
+Musée social,museum,48.8578592,2.321811,Paris,15,2.227643278168005,0
+Maison Poincaré,museum,48.8441489,2.3439751,Paris,15,1.5096402797801944,0
+Musée Curie,museum,48.8442383,2.3447906,Paris,15,1.4776084800397242,0
+Musée des géomètres-experts de la région Auvergne-Rhône-Alpes,museum,45.7428824,4.8213275,Lyon,15,2.59949227548493,0
+Tombeau de Napoleon Ier,attraction,48.855027,2.3125378,Paris,5,2.9070084709422646,0
+Animaponey,attraction,48.8783161,2.3098907,Paris,5,3.925297591732462,0
+Voiture RATP,attraction,48.8428105,2.3720181,Paris,5,2.110416549842,0
+Ancienne Légation de Lituanie (1925-40),attraction,48.8827946,2.3111548,Paris,5,4.182870941618229,0
+Suricate,attraction,48.8333918,2.4191471,Paris,5,5.537136699949687,0
+Pécari,attraction,48.833814,2.4174714,Paris,5,5.406770468837526,0
+Ouistiti,attraction,48.8331903,2.4170601,Paris,5,5.4132321844466915,0
+Nandou de Darwin,attraction,48.832124,2.4167573,Paris,5,5.452067444007707,0
+Gazelle de Mhorr,attraction,48.8327389,2.4183429,Paris,5,5.5196940351683725,0
+Hippotrague,attraction,48.8316359,2.4195937,Paris,5,5.659315834312072,0
+Aquarium,attraction,48.8333192,2.4165249,Paris,5,5.371999055701431,0
+Caméléon,attraction,48.8334197,2.4165534,Paris,5,5.368448044708622,0
+Lamantin,attraction,48.833401,2.4169031,Paris,5,5.391904904040512,0
+Serpents,attraction,48.8336079,2.4172073,Paris,5,5.400525271683839,0
+Fourmi,attraction,48.8336574,2.4169327,Paris,5,5.3802194502178935,0
+Lémuriens,attraction,48.8332408,2.4158162,Paris,5,5.330861022777361,0
+Repère de crue 1910,attraction,48.8429972,2.2794193,Paris,5,5.5360168399182434,0
+Église Saint Antoine,attraction,48.8486784,2.3742707,Paris,5,1.8394410897654359,0
+La Baie des Pirates,theme_park,45.7490416,4.741233,Lyon,60,7.515282631558299,1
+La Maison Elysée,museum,48.8708455,2.3170121,Paris,15,3.022343694972957,0
+Musée du Parfum Fragonard,museum,48.8715287,2.330216,Paris,15,2.311194328242918,0
+Musée de l'informatique du centre de calcul de l'IN2P3,museum,45.7826131,4.8653343,Lyon,15,3.0929225102995206,0
+Science Expériences,museum,45.7616492,4.8361288,Lyon,15,0.2635049419169436,0
+Musée français de la radiologie et de l'imagerie médicale,museum,48.8242959,2.3481253,Paris,15,3.604408735549702,0
+Musée Méliès,museum,48.8368258,2.3823836,Paris,15,3.1165571033570623,0
+Musée de l'Arc de Triomphe,museum,48.8739094,2.2952454,Paris,15,4.589210954594677,0
+Salle des traditions de la Garde républicaine,museum,48.8513463,2.3638643,Paris,15,1.0342034190809075,0
+Maison d'Auguste Comte,museum,48.851041,2.3393342,Paris,15,1.1261288393287394,0
+Mémorial du bombardement de Paris du 20 janvier 1918 et de la libération de Paris le 15 août 1944,attraction,48.8455769,2.3396519,Paris,5,1.5314443743573085,0
+Le Donjon - Escape The Room,attraction,48.8674366,2.3641835,Paris,5,1.490110307195538,0
+Alley Concept Street,attraction,48.8857206,2.3385525,Paris,5,3.388418958080379,0
+Musée national Jean-Jacques Henner,museum,48.8830349,2.3076969,Paris,15,4.385799714513851,0
+Droguier de Lyon,museum,45.7411958,4.8813131,Lyon,15,4.353651738800368,0
+La Voie Bleue - Km 0,attraction,45.7334485,4.8189137,Lyon,5,3.638304585051197,0
+Musée du Nouvel Institut Franco-Chinois,museum,45.7546436,4.811146,Lyon,15,2.17044576245593,0
+Sainte-Luce,park,45.781267,4.7390606,Lyon,0,7.73729099842821,1
+Musée de la Légion d'Honneur et des Ordres de Chevalerie,museum,48.8602946,2.3247235,Paris,15,2.05166486950413,0
+"Paris Plages, Caroussel, Boats, Fun",theme_park,48.8870296,2.3776204,Paris,60,3.8607614635733936,1
+Phono Museum,museum,48.8820921,2.3413277,Paris,15,2.944025097200105,0
+Musée Hector Guimard,museum,48.8506221,2.2708181,Paris,15,5.99126273347884,0
+Pagoda Paris,museum,48.8766896,2.3076952,Paris,15,3.948075562686745,0
+"Plaque commémorative du bombardement de Paris par l'avions allemands, le 30 janvier 1918",attraction,48.8456575,2.3401335,Paris,5,1.5033186081694963,0
+Plaque commémorant le bombardement du allemand «  canons parisiens » le 12 avril 1918,attraction,48.8555965,2.3599315,Paris,5,0.5765450864193558,0
+Espace Krajcberg,museum,48.84353,2.3216046,Paris,15,2.6690310058578506,0
+Astrolabe ESA HQ Visitor Center and Space Shop,museum,48.8484072,2.3041079,Paris,15,3.63473380357814,0
+Oryx d'ArabiÉmeu,attraction,48.845196,2.3619188,Paris,5,1.4538473975246464,0
+Certopithèque de l'Hoest,attraction,48.8451526,2.3611224,Paris,5,1.4305438096471361,0
+Mangabey couronné,attraction,48.845225,2.3611956,Paris,5,1.4258494745812904,0
+Mangabey couronné,attraction,48.8452637,2.3608992,Paris,5,1.4121262874986684,0
+Mangabey noir,attraction,48.8453205,2.360942,Paris,5,1.407911101537139,0
+Panthère de Chine du Nord,attraction,48.8458278,2.3608576,Paris,5,1.3550019342621356,0
+Orang-outan de Bornéo,attraction,48.8451744,2.3609946,Paris,5,1.4241377320110733,0
+La maison des histoires,museum,48.8547976,2.3742376,Paris,15,1.6247138847579865,0
+Fondation Cartier pour l'art contemporain,museum,48.8621189,2.3382323,Paris,15,1.1919394362617595,0
+Amazone à joues vertes,attraction,48.845857,2.3602594,Paris,5,1.3321883965158523,0
+Jurassic Island,attraction,48.8781433,2.2655118,Paris,5,6.778181147229229,0
+Micro-Folie,museum,45.7911379,4.7854002,Lyon,15,4.931803634242425,0
+Ancien Garage du Méridien,attraction,45.7736112,4.7528002,Lyon,5,6.518298830293479,0
+La Maison des histoires,museum,48.8516688,2.3283045,Paris,15,1.8322570472539905,0
+Parc de la Garde,park,45.7601686,4.7908422,Lyon,0,3.505779666575017,1
+Hall d'honneur,attraction,48.8430301,2.3356999,Paris,5,1.932459740256464,0
+Parcours Biodiversité,attraction,48.830918,2.4182107,Paris,5,5.611571731870156,1
