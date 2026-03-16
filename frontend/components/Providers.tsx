@@ -9,7 +9,7 @@ export default function Providers({
     children: React.ReactNode;
 }) {
     return (
-        <GoogleOAuthProvider clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || ""}>
+        <GoogleOAuthProvider clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || "335608642228-asorcgqngtvo8tvn7oma4m15cckh4ov3.apps.googleusercontent.com"}>
             {children}
         </GoogleOAuthProvider>
     );

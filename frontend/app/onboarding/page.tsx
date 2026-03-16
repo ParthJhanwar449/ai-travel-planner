@@ -138,61 +138,63 @@ export default function OnboardingPage() {
                     </p>
                 </header>
 
-                <div className="space-y-2">
-                    <StarRating
-                        label="Art & Culture"
-                        value={formik.values.interest_culture}
-                        onChange={(val) => formik.setFieldValue("interest_culture", val)}
-                        error={formik.touched.interest_culture ? (formik.errors.interest_culture as string) : undefined}
-                    />
-                    <StarRating
-                        label="Nature & Outdoors"
-                        value={formik.values.interest_nature}
-                        onChange={(val) => formik.setFieldValue("interest_nature", val)}
-                        error={formik.touched.interest_nature ? (formik.errors.interest_nature as string) : undefined}
-                    />
-                    <StarRating
-                        label="Gourmet & Local Dining"
-                        value={formik.values.interest_food}
-                        onChange={(val) => formik.setFieldValue("interest_food", val)}
-                        error={formik.touched.interest_food ? (formik.errors.interest_food as string) : undefined}
-                    />
-                    <StarRating
-                        label="Nightlife & Entertainment"
-                        value={formik.values.interest_entertainment}
-                        onChange={(val) => formik.setFieldValue("interest_entertainment", val)}
-                        error={formik.touched.interest_entertainment ? (formik.errors.interest_entertainment as string) : undefined}
-                    />
-                </div>
-
-                <div className="mt-8 mb-10">
-                    <label className="block mb-3 text-lg font-bold text-white/90">
-                        Explorer Resource Level
-                    </label>
-                    <div className="flex gap-3">
-                        {["low", "medium", "high"].map((level) => (
-                            <button
-                                key={level}
-                                type="button"
-                                onClick={() => formik.setFieldValue("budget_level", level)}
-                                className={`flex-1 py-3 px-4 rounded-xl border transition-all duration-200 capitalize font-bold ${formik.values.budget_level === level
-                                    ? "bg-emerald-600 border-emerald-400 text-white shadow-[0_0_20px_rgba(16,185,129,0.2)]"
-                                    : "bg-white/[0.03] border-white/10 text-white/40 hover:bg-white/[0.06] hover:text-white/60"
-                                    }`}
-                            >
-                                {level}
-                            </button>
-                        ))}
+                <form onSubmit={formik.handleSubmit}>
+                    <div className="space-y-2">
+                        <StarRating
+                            label="Art & Culture"
+                            value={formik.values.interest_culture}
+                            onChange={(val) => formik.setFieldValue("interest_culture", val)}
+                            error={formik.touched.interest_culture ? (formik.errors.interest_culture as string) : undefined}
+                        />
+                        <StarRating
+                            label="Nature & Outdoors"
+                            value={formik.values.interest_nature}
+                            onChange={(val) => formik.setFieldValue("interest_nature", val)}
+                            error={formik.touched.interest_nature ? (formik.errors.interest_nature as string) : undefined}
+                        />
+                        <StarRating
+                            label="Gourmet & Local Dining"
+                            value={formik.values.interest_food}
+                            onChange={(val) => formik.setFieldValue("interest_food", val)}
+                            error={formik.touched.interest_food ? (formik.errors.interest_food as string) : undefined}
+                        />
+                        <StarRating
+                            label="Nightlife & Entertainment"
+                            value={formik.values.interest_entertainment}
+                            onChange={(val) => formik.setFieldValue("interest_entertainment", val)}
+                            error={formik.touched.interest_entertainment ? (formik.errors.interest_entertainment as string) : undefined}
+                        />
                     </div>
-                </div>
 
-                <button
-                    onClick={() => formik.handleSubmit()}
-                    disabled={isLoading}
-                    className="w-full bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white font-black py-4 rounded-2xl text-lg transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-emerald-900/40 border border-emerald-400/20"
-                >
-                    {isLoading ? "Setting Up Profile..." : "Start Your Adventure"}
-                </button>
+                    <div className="mt-8 mb-10">
+                        <label className="block mb-3 text-lg font-bold text-white/90">
+                            Explorer Resource Level
+                        </label>
+                        <div className="flex gap-3">
+                            {["low", "medium", "high"].map((level) => (
+                                <button
+                                    key={level}
+                                    type="button"
+                                    onClick={() => formik.setFieldValue("budget_level", level)}
+                                    className={`flex-1 py-3 px-4 rounded-xl border transition-all duration-200 capitalize font-bold ${formik.values.budget_level === level
+                                        ? "bg-emerald-600 border-emerald-400 text-white shadow-[0_0_20px_rgba(16,185,129,0.2)]"
+                                        : "bg-white/[0.03] border-white/10 text-white/40 hover:bg-white/[0.06] hover:text-white/60"
+                                        }`}
+                                >
+                                    {level}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                    <button
+                        type="submit"
+                        disabled={isLoading}
+                        className="w-full bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white font-black py-4 rounded-2xl text-lg transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-emerald-900/40 border border-emerald-400/20"
+                    >
+                        {isLoading ? "Setting Up Profile..." : "Start Your Adventure"}
+                    </button>
+                </form>
             </div>
         </main>
     );

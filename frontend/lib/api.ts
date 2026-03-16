@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "http://192.168.8.183:8000",
+    baseURL: "https://hypernormally-cirrate-toccara.ngrok-free.dev",
 });
 
 api.interceptors.request.use((config) => {
@@ -12,6 +12,9 @@ api.interceptors.request.use((config) => {
             config.headers.Authorization = `Bearer ${token}`;
         }
     }
+    
+    // Skip ngrok browser warning
+    config.headers['ngrok-skip-browser-warning'] = 'true';
 
     return config;
 });
